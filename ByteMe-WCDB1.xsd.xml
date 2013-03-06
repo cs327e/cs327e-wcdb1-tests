@@ -1,0 +1,317 @@
+<?xml version="1.0" ?>
+
+<!-- XSD for WCDB.xml -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <xsd:element name="WorldCrisisDatabase">
+         <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="Crisis" type="CrisisType"
+                         minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="Person" type="PersonType"
+                         minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="Organization" type="OrganizationType"
+                         minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="Location" type="LocationType"
+						 minOccurs="0" maxOccurs="unbounded" />
+         </xsd:sequence>
+      </xsd:complexType>
+      <!-- Keys --> 
+      <xsd:key name="CrisisKey">
+         <xsd:selector xpath="Crisis" />
+         <xsd:field xpath="@CrisisID" />
+      </xsd:key>
+      <xsd:key name="PersonKey">
+         <xsd:selector xpath="Person" />
+         <xsd:field xpath="@PersonID" />
+      </xsd:key>
+          <xsd:key name="OrgKey">
+         <xsd:selector xpath="Organization" />
+         <xsd:field xpath="@OrgID" />
+      </xsd:key>
+	  <xsd:key name="LocationKey">
+			<xsd:selector xpath="Location" />
+			<xsd:field xpath="@LocID" />
+	  </xsd:key>
+       <!-- KeyRefs, selectors changed --> 
+      <xsd:keyref name="CrisisKeyRef1" refer="CrisisKey">
+         <xsd:selector xpath="Organization/Crises/Cris" />
+         <xsd:field xpath="@crisisIdent" />
+      </xsd:keyref>
+    <xsd:keyref name="CrisisKeyRef2" refer="CrisisKey">
+         <xsd:selector xpath="Person/Crises/Cris" />
+         <xsd:field xpath="@crisisIdent" />
+      </xsd:keyref>
+	  <xsd:keyref name="PersonKeyRef1" refer="PersonKey">
+         <xsd:selector xpath="Organization/People/Pers" />
+         <xsd:field xpath="@personIdent" />
+      </xsd:keyref>
+	  <xsd:keyref name="PersonKeyRef2" refer="PersonKey">
+         <xsd:selector xpath="Crisis/People/Pers" />
+         <xsd:field xpath="@personIdent" />
+      </xsd:keyref>
+	  <xsd:keyref name="OrgKeyRef1" refer="OrgKey">
+		 <xsd:selector xpath="Crisis/Orgs/Org"/>
+         <xsd:field xpath="@orgIdent" />
+      </xsd:keyref>
+	  	  <xsd:keyref name="OrgKeyRef2" refer="OrgKey">
+         <xsd:selector xpath="Person/Orgs/Org"/>
+         <xsd:field xpath="@orgIdent" />
+      </xsd:keyref>
+	  <xsd:keyref name="LocKeyRef1" refer="LocationKey">
+			<xsd:selector xpath="Crisis/Locations/Loc"/>
+			<xsd:field xpath="@locIdent" />
+	  </xsd:keyref>
+	  <xsd:keyref name="AddKeyRef2" refer="LocationKey">
+			<xsd:selector xpath="Person/Locations/Loc"/>
+			<xsd:field xpath="@locIdent" />
+	  </xsd:keyref>
+	  <xsd:keyref name="AddKeyRef3" refer="LocationKey">
+			<xsd:selector xpath="Organization/Locations/Loc"/>
+			<xsd:field xpath="@locIdent" />
+	  </xsd:keyref>
+   </xsd:element>
+   
+   <xsd:complexType name="CrisisType">
+        <xsd:sequence>
+            <xsd:element name="Name" type="xsd:string" 
+                         minOccurs="1" maxOccurs="unbounded"/>
+            <xsd:element name="Kind" type="xsd:string"
+                         minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element name="Locations" minOccurs="0" maxOccurs="1">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Loc" minOccurs="0" maxOccurs="unbounded">
+							<xsd:complexType>
+								<xsd:attribute name="locIdent" type="xsd:string"
+									use="required" />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="StartDate" type="xsd:date"/>
+            <xsd:element name="StartTime" type="xsd:time"
+            		 minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="DurationDays" type="xsd:float"/>
+            <xsd:element name="NumberOfCasualties" type="xsd:int"/>
+            <xsd:element name="EconomicsImpact_MillionsUSD" type="xsd:float"/>
+            <xsd:element name="ResourcesNeeded" type="xsd:string"
+                         minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="WaysToHelp" type="xsd:string"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ImageURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="MapURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="SocialNetworks" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ExternalLinkURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="VideoURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Citations" type="xsd:string"
+            		 minOccurs="0" maxOccurs="unbounded"/>
+            
+            <xsd:element name="Person" minOccurs="0">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element name="Pers" minOccurs="0" maxOccurs="unbounded">
+                     <xsd:complexType>
+                        <xsd:attribute name="personIdent" type="xsd:string"
+                                       use="required" />
+                     </xsd:complexType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+         
+         <xsd:element name="Orgs" minOccurs="0">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element name="Org" minOccurs="0" maxOccurs="unbounded">
+                     <xsd:complexType>
+                        <xsd:attribute name="orgIdent" type="xsd:string"
+                                       use="required" />
+                     </xsd:complexType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+            
+        </xsd:sequence>
+        <xsd:attribute name="CrisisID" type="xsd:string" use="required" />
+   </xsd:complexType>
+   
+   
+      <xsd:complexType name="PersonType">
+        <xsd:sequence>
+            <xsd:element name="PersonName" type="PersonNameType" />
+            <xsd:element name="Kind" type="xsd:string"
+                         minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element name="Locations" minOccurs="0" maxOccurs="1">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Loc" minOccurs="0" maxOccurs="unbounded">
+							<xsd:complexType>
+								<xsd:attribute name="locIdent" type="xsd:string"
+									use="required" />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="ImageURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="MapURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="SocialNetworks" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ExternalLinkURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="VideoURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Citations" type="xsd:string"
+            		 minOccurs="0" maxOccurs="unbounded"/>
+            
+            <xsd:element name="Crises" minOccurs="0">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element name="Cris" minOccurs="0" maxOccurs="unbounded">
+                     <xsd:complexType>
+                        <xsd:attribute name="crisisIdent" type="xsd:string"
+                                       use="required" />
+                     </xsd:complexType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+         
+         <xsd:element name="Orgs" minOccurs="0">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element name="Org" minOccurs="0" maxOccurs="unbounded">
+                     <xsd:complexType>
+                        <xsd:attribute name="orgIdent" type="xsd:string"
+                                       use="required" />
+                     </xsd:complexType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+            
+        </xsd:sequence>
+        <xsd:attribute name="PersonID" type="xsd:string" use="required" />
+   </xsd:complexType>
+   
+   <xsd:complexType name="OrganizationType">
+        <xsd:sequence>
+            <xsd:element name="Name" type="xsd:string" />
+            <xsd:element name="Kind" type="xsd:string"
+                         minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element name="Locations" minOccurs="0" maxOccurs="1">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Loc" minOccurs="0" maxOccurs="unbounded">
+							<xsd:complexType>
+								<xsd:attribute name="locIdent" type="xsd:string"
+									use="required" />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="FoundingYear" type="xsd:int"/>
+            <xsd:element name="History" type="xsd:string"/>
+            <xsd:element name="ContactWebsite" type="URLType"/>
+            <xsd:element name="ContactPhone" minOccurs="0" maxOccurs="1">
+                <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="ContactEmail" minOccurs="0" maxOccurs="1">
+                <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:pattern value=".+@.+[.]+.+"/>
+                </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>            
+            <xsd:element name="ImageURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="MapURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="SocialNetworks" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="ExternalLinkURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="VideoURL" type="URLType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Citations" type="xsd:string"
+            		 minOccurs="0" maxOccurs="unbounded"/>
+            
+            <xsd:element name="Crises" minOccurs="0">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element name="Cris" minOccurs="0" maxOccurs="unbounded">
+                     <xsd:complexType>
+                        <xsd:attribute name="crisisIdent" type="xsd:string"
+                                       use="required" />
+                     </xsd:complexType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+         
+         <xsd:element name="Person" minOccurs="0">
+            <xsd:complexType>
+               <xsd:sequence>
+                  <xsd:element name="Pers" minOccurs="0" maxOccurs="unbounded">
+                     <xsd:complexType>
+                        <xsd:attribute name="personIdent" type="xsd:string"
+                                       use="required" />
+                     </xsd:complexType>
+                  </xsd:element>
+               </xsd:sequence>
+            </xsd:complexType>
+         </xsd:element>
+            
+        </xsd:sequence>
+        <xsd:attribute name="OrgID" type="xsd:string" use="required" />
+   </xsd:complexType>
+   
+   <xsd:complexType name="PersonNameType">
+   <xsd:sequence>
+        <xsd:element name="FirstName" type="xsd:string" />
+        <xsd:element name="MiddleName" type="xsd:string" 
+                     minOccurs="0" maxOccurs="2" />
+        <xsd:element name="LastName" type="xsd:string" />
+        <xsd:element name="NickName" type="xsd:string"
+                     minOccurs="0" maxOccurs="unbounded" />
+      </xsd:sequence>
+   </xsd:complexType>
+   
+   <xsd:complexType name="LocationType">
+      <xsd:sequence>
+        <xsd:element name="Country" type="xsd:string"
+					 minOccurs="0" maxOccurs="1"/>
+        <xsd:element name="StreetAddress" type="xsd:string" 
+                     minOccurs="0" maxOccurs="1" />
+        <xsd:element name="Locality" type="xsd:string" 
+                     minOccurs="0" maxOccurs="1"/>
+        <xsd:element name="Region" type="xsd:string"
+                     minOccurs="0" maxOccurs="1" />
+        <xsd:element name="postalCode" type="xsd:string" 
+                     minOccurs="0" maxOccurs="1" />
+      </xsd:sequence>
+	  <xsd:attribute name="LocID" type="xsd:string" use="required" />
+   </xsd:complexType>
+   
+   <xsd:simpleType name="URLType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value = 'https?://.+' />
+        </xsd:restriction>
+   </xsd:simpleType>
+   
+ </xsd:schema>
