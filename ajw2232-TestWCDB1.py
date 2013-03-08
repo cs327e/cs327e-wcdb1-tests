@@ -29,6 +29,7 @@ class TestWCDB (unittest.TestCase):
         a = [""]
         p= WCDB_read(r, a)
         self.assert_(p == True)
+        print a
         self.assert_(a[0] == "Test String\n")
 
     def test_read_3 (self):
