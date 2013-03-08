@@ -1,0 +1,1481 @@
+<?xml version=”1.0” ?>
+<WorldCrisesDatabase>
+
+	<Crisis cID=“enron”>
+		<Info>
+			<Name>Enron Scandal</Name>
+			<Kind>Financial Crisis</Kind>
+			<Description>The Enron Scandal was uncovered in October of 2001 and was the cause of the eventual collapse and bankruptcy of the American energy company based out of Houston, TX. Though the scandal caused public outrage in October, it was a slow accumulation of events and long-standing practices that eventually led to Enron’s collapse. The Enron Corporation was formed by Kenneth Lay in 1985. The scandal was a combination of overly complex financial statements purposed to confuse shareholders and analysts, and the unethical practices of misrepresenting earnings, cash flow, asset values, and liabilities. The first curious sign of anything amiss to the public eye can be attributed to CEO Jeffrey Skilling’s resignation on August 14, 2001.</Description>
+			<Location>
+				<AddressLine>1400 Smith Street</AddressLine>
+				<City>Houston</City>
+				<State>TX</State>
+				<Country>United States</Country>
+				<Postal>77002</Postal>
+			</Location>
+			<Date>
+				<StartDate>2001-08-14</StartDate>
+				<EndDate>2002-12-02</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Investors lost nearly $60 billion over just a few days, which meant the loss of a retirement fund for most. The pension fund for the company’s 4500 employees as well as their jobs were lost.</HumanImpact>
+		<EconomicImpact>This was the greatest stock value loss in peaceful times (from $90 to $0.12 over a year and a half) as well as the largest bankruptcy in American history.</EconomicImpact>
+		<ResourcesNeeded>Enormous amounts of money and investors</ResourcesNeeded>
+		<WaysToHelp>Dynegy buyout</WaysToHelp>
+		<External>
+			<Image title="Enron Logo">http://rememberinghistory.files.wordpress.com/2012/11/enron_logo.jpg%3Fw%3D610</Image>
+			<Video title="Enron - The Smartest Guys In The Room">http://www.youtube.com/watch?v=QS5aosxUfvY</Video>
+			<Map title="Enron Headquarters">https://maps.google.com/maps?hl=en&q=1400+smith+street+houston+77002&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&bvm=bv.43287494,d.b2I&biw=640&bih=679&um=1&ie=UTF-8&sa=N&tab=wl</Map>
+		</External>
+		<Organizations>
+			<Organization oID=”sec” />
+		</Organizations>
+		<People>
+			<Person pID=”klay” />
+			<Person pID=”agree” />
+		</People>
+</Crisis>
+
+	<Crisis cID = “depress”>
+		<Info>
+			<Name>Stock Market Crash / Great Depression</Name>
+			<Kind>Financial Crisis</Kind>
+			<Description>The Great Depression was a worldwide economic depression that preceded the Second World War. In most countries affected, it lasted from 1930 until the early 1940s. Stock prices began to fall on September 4, 1929 in the United States and began to affect the world when the stock market crashed on October 29, 1929, starting the Great Depression on a day now known as Black Tuesday. Many attribute the end of the Depression to the first day of World War II</Description>
+			<Location>
+				<AddressLine>New York Stock Exchange</AddressLine>
+				<AddressLine>11 Wall Street</AddressLine>
+				<City>New York</City>
+				<State>NY</State>
+				<Country>United States</Country>
+				<Postal>10005</Postal>
+			</Location>
+			<Date>
+				<StartDate>1929-10-29</StartDate>
+				<EndDate>1941-12-08</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Many people found themselves homeless after losing their jobs and being unable to make rent. There was a lot of starvation and spread of illnesses.</HumanImpact>
+		<EconomicImpact>After the US economy declined the stock market crashed, other countries were affected and began to experience economic declines as well.</EconomicImpact>
+		<ResourcesNeeded>Economic stimulation</ResourcesNeeded>
+		<WaysToHelp>Patriotism and war motivated people to spend money.</WaysToHelp>
+		<External>
+			<Image title="Florence Owens Thompson, Migrant Mother">http://upload.wikimedia.org/wikipedia/commons/5/54/Lange-MigrantMother02.jpg</Image>
+			<Video title="Stories from the Great Depression">http://www.youtube.com/watch?v=TpfY8kh5lUw</Video>
+		</External>
+		<Organizations>
+			<Organization oID=”fdic” />
+			<Organization oID=”fedres” />
+		</Organizations>
+		<People>
+			<Person pID=”froos” />
+			<Person pID=”bbern” />
+		</People>
+</Crisis>
+
+
+<Crisis cID=“fin08”>
+		<Info>
+			<Name>2008 Financial Crisis</Name>
+			<Kind>Financial Crisis</Kind>
+			<Description>This crisis is considered by most economists to be the worst financial crisis since the Great Depression. It led to the collapse of many financial institutions and the need for multiple government bailouts. Stocks fell and many were hit with unemployment.</Description>
+			<Location>
+				<Country>United States</Country>
+			</Location>
+			<Date>
+				<StartDate>2007-08-07</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>Investors lost nearly $60 billion over just a few days, which meant the loss of a retirement fund for most. The pension fund for the company’s 4500 employees as well as their jobs were lost.</HumanImpact>
+		<EconomicImpact>This resulted in declines in consumption and investment. Housing prices fell 20% and many homeowners who held substantial equity in their homes ended with little to nothing at the end of it.</EconomicImpact>
+		<ResourcesNeeded>Stimulus packages, buyouts.</ResourcesNeeded>
+		<WaysToHelp>US carried out two stimulus packages totalling nearly $1 trillion. Other countries’ central governments stepped in to help as well.</WaysToHelp>
+		<External>
+			<Video title="The Causes and Effects of the 2008 Financial Crisis">https://www.youtube.com/watch?v=N9YLta5Tr2A</Video>
+		</External>
+		<Organizations>
+			<Organziation oID=”fedres” />
+			<Organziation oID=”ecb” />
+		</Organizations>
+		<People>
+			<Person pID=”gbush” />
+			<Person pID=”mdrag” />
+			<Person pID=”agree” />
+		</People>
+</Crisis>
+
+<Crisis cID=“oil73”>
+		<Info>
+			<Name>1973 Oil Crisis</Name>
+			<Kind>Economic Crisis</Kind>
+			<Description>The Organization of Arab Petroleum Exporting Countries (OAPEC; consists of Arab OPEC members, Egypt, Syria, and Tunisia) declared an oil embargo in October of 1973. This was a “punishment” for the United States’ decision to resupply Israel in response to the surprise attackby Egypt and Syria on Yom Kippur that year. There was a strong possibility that the high oil prices would be a long-term result, and is widely considered to be the first event since the Great Depression to have a lasting economic effect. Government price controls also led “old oil” that had already been discovered to withdraw from the market, creating an artificial scarcity.</Description>
+			<Location>
+				<Country>United States</Country>
+			</Location>
+			<Date>
+				<StartDate>1973-10-16</StartDate>
+				<EndDate>1974-03-17</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>People experienced stress and panic over the possibility of war. They also experience the spike in oil prices. This also led to spikes of violence and strikes by truck drivers.</HumanImpact>
+		<EconomicImpact>The price of oil in the increased 400% leading to the increase in economic leverage and wealth for oil exporting countries in the middle east. These countries used the capital for massive arms purchases, leading to more stressed political tension.</EconomicImpact>
+		<ResourcesNeeded>Government intervention</ResourcesNeeded>
+		<WaysToHelp>Gasoline ration stamps were printed. 3-color flag systems and odd-even rationing methods were adopted as well. A national maximum speed limit and propoganda programs were also initiated. </WaysToHelp>
+		<External>
+			<Image title="1973 Oil Crisis Flag Policy">http://upload.wikimedia.org/wikipedia/commons/e/ed/FLAG_POLICY_DURING_THE_1973_oil_crisis.gif</Image>
+			<Video title="OPEC Oil Embargo - 1973">http://www.youtube.com/watch?v=VCLRlVxOH-Q</Video>
+		</External>
+		<Organizations>
+			<Organziation oID=”fedres” />
+		</Organizations>
+		<People>
+<People pID=”bbern” />
+		</People>
+</Crisis>
+
+
+	<Crisis cID=“wtc”>
+		<Info>
+			<Name>September 11 Attacks</Name>
+			<Kind>Military Crisis</Kind>
+			<Description>This crisis took place on September 11, 2011. It was a series of 4 attacked organized by Al-Qaeda, an Islamic terrorist group. These 4 attacks began with the hijacking of 4 passenger jets. These were intended to be suicide missions, to be collided into the World Trade Center towers and the Pentagon. The collapse of the WTC resulted in nearly 3000 deaths and just as many casualties, shaking the lives of many around the nation.</Description>
+			<Location>
+				<AddressLine>One World Trade Center</AddressLine>
+				<AddressLine>Vesey Street</AddressLine>
+				<City>New York</City>
+				<State>NY</State>
+				<Postal>10006</Postal>
+
+				<AddressLine>The Pentagon</AddressLine>
+				<AddressLine>1400 Pentagon Pedestrian Tunnel</AddressLine>
+				<City>Washington</City>
+				<State>DC</State>
+				<Postal>20301</Postal>
+
+				<Country>United States</Country>
+			</Location>
+			<Date>
+				<StartDate>2011-09-11</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>These attacks caused many to lose their sense of safety in their country but eventually led to a strong patriotism. The US saw a greater priority placed on home and family, church, and security, as well as a spike in blood donations. Approximately 18,000 people developed illnesses as a result of the toxic debris.</HumanImpact>
+		<EconomicImpact>The stock exchanges remained closed for a week from Sept. 11 to Sept 17. Upon reopening, Dow Jones saw a 7.1% fall, decreasing twice that over the week. Thousands of jobs and billions of dollars were lost in the months following these attacks.</EconomicImpact>
+		<ResourcesNeeded>Blood, emergency response</ResourcesNeeded>
+		<WaysToHelp>People all over the nation found ways to donate money or blood to contribute to the efforts.</WaysToHelp>
+		<External>
+			<Image title="World Trade Center Towers">http://spinalcolumnradio.files.wordpress.com/2010/07/911-twin-towers-fire.jpg</Image>
+			<Video title=”911 Twin Towers Crash Footage”>https://www.youtube.com/watch?v=_u9kieqGppE</Video>
+			<Map title="World Trade Center">https://maps.google.com/maps?hl=en&q=1+world+trade+center+new+york+street+address&ie=UTF-8&hq=&hnear=0x89c25a1bcfb6ae35:0x83b61a4dc69b3439,One+World+Trade+Center,+Vesey+St,+New+York,+NY+10006&gl=us&ei=TEo4UdO5LIqA2gXlyYEQ&ved=0CDAQ8gEwAA</Map>
+			<Social network="Google+">https://plus.google.com/116390179722913343556/about?gl=us&hl=en</Social>
+		</External>
+		<Organizations>
+			<Organziation oID=”un” />
+<Organziation oID=”cia” />
+		</Organizations>
+		<People>
+<People pID=”gbush” />
+<People pID=”bobam” />
+<People pID=”shuss” />
+<People pID=”olad” />
+<People pID=”agree” />
+		</People>
+</Crisis>
+
+	<Crisis cID=“corn70”>
+		<Info>
+			<Name>1970 Corn Epidemic</Name>
+			<Kind>Epidemic</Kind>
+			<Description>The southern corn leaf blight epidemic occured in the United States during the 1970 corn growing season. A minor disease evolved into a problem that caused more than 12 percent of all the corn diseases in the United States. Because of this blight, we lost 710 million bushels that season, demonstrating the harsh reality of the state of vulnerability of our food crops to parasites.</Description>
+			<Location>
+				<Country>United States</Country>
+			</Location>
+			<Date>
+				<StartDate>1970-02-01</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>The fungus moved quickly from one crop to another, wiping out an entire field of corn in just 10 days. It spread from Florida and entered Canada in just 4 months, leaving financial loss and a food shortage in its wake.</HumanImpact>
+		<EconomicImpact>Panic gripped the nation and in just one day, 193 million bushels of corn were exchanged on at the Chicago Board of Trade, the US’ largest commodities market. Corn, wheat and oats jumped to their highest allowable value. Livestock trading levels spiked as well, resulting in some farmers becoming wealthy nearly overnight.</EconomicImpact>
+		<ResourcesNeeded>Blight resistant corn.</ResourcesNeeded>
+		<WaysToHelp>The USDA was caught off guard by the severity of the blight. Research was initiated and resistant plants were made to avoid an epidemic like this again.</WaysToHelp>
+		<External>
+			<Image title="Effect of the Blight">http://www2.nau.edu/~bio372-c/images/sclb1s.gif</Image>
+			<Image title=”Helminthosporium Maydis”>http://www2.nau.edu/~bio372-c/images/sclb4s.gif</Image>
+		</External>
+		<Organizations>
+			<Organization oID=”usda” />
+		</Organizations>
+		<People>
+			<People pID=”froos” />
+			<People pID=”chard” />
+		</People>
+</Crisis>
+
+
+	<Crisis cID=“terror”>
+		<Info>
+			<Name>War on Terror</Name>
+			<Kind>Military Crisis</Kind>
+			<Description>The War on Terror was a reaction to the terrorist attacks on the United States on September 11, 2011. It refers to the international military campaign to quell Al-Qaeda and other militant terrorist cells, and was a combined effort by the UK and other NATO and non-Nato nations. Though coined by George W. Bush, successor Barack Obama uses the term Overseas Contingency Operation instead. This led to efforts to detain Osama bin Laden and Saddam Hussein.</Description>
+			<Location>
+				<Country>United States</Country>
+			</Location>
+			<Date>
+				<StartDate>2001-10-07</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>While there might have been some amount of support in the beginning, over the course of the years, more and more began to feel that the War on Terror was not the right action to take, or that it was done for the wrong reasons. It led to an outcry for new leadership and changed the perception of the military in the US. The US Department of Veterans Affairs has diagnosed more than 200,000 American veterans with PTSD since 2011.</HumanImpact>
+		<EconomicImpact>Spending was $1.2 trillion in 2011 with a long term spending estimate of $5.4 trillion, plus interest.</EconomicImpact>
+		<ResourcesNeeded>Military, defense weapons, engineers.</ResourcesNeeded>
+		<WaysToHelp>NATO helped by enacting Operation Active Endeavour in 2001, a naval operation in the Mediterranean Sea to prevent movement of weapons and militants, for example.</WaysToHelp>
+		<External>
+			<Image title="US Military Operations">http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/War_on_Terror_montage1.png/800px-War_on_Terror_montage1.png</Image>
+			<Video title="Is This Endless War on Terror the New Normal?">https://www.youtube.com/watch?v=gnwZVv-axMw</Video>
+		</External>
+		<Organizations>
+			<Organization oID=”un” />
+			<Organization oID=”nato” />
+			<Organization oID=”alq” />
+			<Organization oID=”cia” />
+		</Organizations>
+		<People>
+			<People pID=”gbush” />
+			<People pID=”bobam” />
+			<People pID=”shuss” />
+<People pID=”olad” />
+<People pID=”agree” />
+		</People>
+</Crisis>
+
+<Crisis cID=“wwii”>
+		<Info>
+			<Name>World War II</Name>
+			<Kind>Military Crisis</Kind>
+			<Description>World War II was a global war that began in 1939 and ended in 1945, between the Allies and the Axis. It was the most pervasive par in history with over 100 million people serving in military units. It is known as the deadliest conflict in human history and began with the German invasion of Poland.</Description>
+			<Location>
+				<Country>Poland</Country>
+			</Location>
+			<Date>
+				<StartDate>1939-11-01</StartDate>
+				<EndDate>1945-08-14</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Many civilions died because of bombings and massacres, starvation, and disease. Afterwards, there was a baby boom and the GDP in the us was higher than any other in the world economy.</HumanImpact>
+		<EconomicImpact>The United States actually emerged much more wealthy than any other nation, despite the global economy’s heavy suffering.</EconomicImpact>
+		<ResourcesNeeded>Weapons, supplies, support, money.</ResourcesNeeded>
+		<WaysToHelp>US could not maintain neutrality and stepped  after the attacks on Pearl Harbor. Many in the US did what they could to help, including women.</WaysToHelp>
+		<External>
+			<Image title="World War II">http://upload.wikimedia.org/wikipedia/commons/5/54/Infobox_collage_for_WWII.PNG</Image>
+			<Video title="WWII HD: A New World Order | History Channel Documentary | Military & War">https://www.youtube.com/watch?v=ts-Ch2IaRh4</Video>
+		</External>
+		<Organizations>
+			<Organization oID=”un” />
+			<Organization oID=”cia” />
+		</Organizations>
+		<People>
+			<Person pID=”froos” />
+		</People>
+</Crisis>
+
+	<Crisis cID=“greece”>
+		<Info>
+			<Name>Greek Economic Collapse</Name>
+			<Kind>Economic Crisis</Kind>
+			<Description>Greece went on a debt binge over the last decade that came crashing down in late 2009. Not only did it bring down its government, but the social unrest brought down the country’s economy and threatened the future of the Euro. </Description>
+			<Location>
+				<Country>Greece</Country>
+			</Location>
+			<Date>
+				<StartDate>2009-12-01</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>Public opposition was great, and the right-wing party was linked to anti-immigrant violence.</HumanImpact>
+		<EconomicImpact>This nearly brought down the entire country and the removal from the European Union.</EconomicImpact>
+		<ResourcesNeeded>Money and a restructured government.</ResourcesNeeded>
+		<WaysToHelp>France and Germany have given massive bailout packages, totalling 240 billion euros, but at a price.</WaysToHelp>
+		<External>
+			<Image title="Greece Flag">http://wwp.greenwichmeantime.com/time-zone/europe/european-union/greece/images/greece-flag.jpg</Image>
+			<Video title="Understanding Greece’s Financial Crisis">http://www.youtube.com/watch?v=LVGQCFRn34M</Video>
+			<Map title="Greece">https://maps.google.com/maps?q=greece&aq=f&um=1&ie=UTF-8&hl=en&sa=N&tab=wl</Map>
+		</External>
+		<Organizations>
+			<Organization oID=”un” />
+			<Organization oID=”ecb” />
+		</Organizations>
+		<People>
+			<Person pID=”mdrag” />
+		</People>
+</Crisis>
+
+<Crisis cID=“russfin”>
+		<Info>
+			<Name>Russian Financial Crisis</Name>
+			<Kind>Financial Crisis</Kind>
+			<Description>This was a crisis in the Russian financial markets that was compounded with political fears following their war with Georgia. In late 2008, Russia lost nearly $1 trillion from their market shares. It was part of the global recession of 2008, known as the Great Recession.</Description>
+			<Location>
+				<Country>Russia</Country>
+			</Location>
+			<Date>
+				<StartDate>2007-08-07</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>There was a huge wave of unemployment and social unrest.</HumanImpact>
+		<EconomicImpact>The recession was inevitable, and consumer price inflation rose quickly. Unemployment was at a 7 year high of 9.4%.</EconomicImpact>
+		<ResourcesNeeded>Money for refinancing</ResourcesNeeded>
+		<WaysToHelp>The government injected 500 billion roubles into their budget following the recession so that the system could receive support.</WaysToHelp>
+		<External>
+			<Image title="Russia">http://images.nationalgeographic.com/wpf/media-live/photos/000/060/cache/russia-st-basils_6026_600x450.jpg</Image>
+			<Video title="Will the Russian Left Respond to Deepening Economic Crisis?">https://www.youtube.com/watch?v=us1n3DRvLug</Video>
+			<Map title="Russia">http://www.lib.utexas.edu/maps/commonwealth/russia_auton_92.jpg</Map>
+		</External>
+		<Organizations>
+			<Organization oID=”un” />
+			<Organization oID=”ecb” />
+		</Organizations>
+		<People>
+			<Person pID=”mdrag” />
+		</People>
+</Crisis>
+
+	<Organization oID="usda">
+		<Info>
+			<Name>United States Department of Agriculture</Name>
+			<Abbreviation>USDA</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>Agricultural</Kind>
+			<Description>The USDA is the United States federal executive department responsible for developing and executing U.S. federal government policy on farming, agriculture, forestry, and food.  It aims to meet the needs of farmers and ranchers, promote agricultural trade and production, work to assure food safety, protect natural resources, foster rural communities and end hunger in the United States and abroadg</Description>
+			<Location>
+				<AddressLine>1400 Independence Ave., S.W. </AddressLine>
+				<City>Washington</City>
+				<State>OPTIONAL string</State>
+				<Country>United States</Country>
+				<Postal>20250</Postal>
+			</Location>
+			<Date>
+				<StartDate>1862-05-15</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>On May 15, 1862, Abraham Lincoln signed into law the Agricultural Act that established the U.S. Department of Agriculture. Since then, the Department has had a rich and varied history. The resources below explore that history, along with the history and organization of USDA's associated agencies and staff offices.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.usda.gov/wps/portal/usda/usdahome</Website>
+			<Telephone>(202) 720-2791</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="USDA"><xhtml:a=
+“https://www.google.com/search?hl=en&rlz=1C2DVCR_enUS407US456&q=USDA+images&bav=on.2,or.r_gc.r_pw.r_qf.&bvm=bv.43287494,d.b2I&biw=1241&bih=584&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&ei=w_M3UfOvN4rA2AXRtoDYBQ#imgrc=3587T5k4YZYdfM%3A%3BDip-rsLNM2aALM%3Bhttp%253A%252F%252Fionenewsone.files.wordpress.com%252F2011%252F05%252Fusda_logo_rev.gif%3Bhttp%253A%252F%252Fnewsone.com%252F1227425%252Fusda-civil-rights-shirley-sherrod%252F%3B1233%3B850;”</xhtml:a></Image>
+			<Video title="USDA Under Fire For Controversial Cultural Sensitivity Training"><xhtml:a=”http://video.foxbusiness.com/v/2174388754001/usda-under-fire-for-controversial-cultural-sensitivity-training/;”</xhtml:a></Video>
+			<Map title="USDA Map">xhtml:al=”https://maps.google.com/maps?hl=en&q=1400+Independence+Ave.,+S.W.&ie=UTF-8&hq=&hnear=0x89b7b79fa4334315:0xfb36514e8557abaf,1400+Independence+Ave+SW,+Washington,+DC+20024&gl=us&ei=ePY3UeLYCqOU2wWR4IGoCg&ved=0CDMQ8gEwAQ;</xhtml:a></Map>
+			<Social network="Facebook">xhtml:a=”http://www.facebook.com/pages/USDA/106119542761892?fref=ts”</xhtml:a></Social>
+			<Link title="Required String">VALID URL</Link>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="corn70" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+			<Person pID="chard" />
+		</People>
+
+	</Organization>
+
+	<Organization oID="sec">
+		<Info>
+			<Name>U.S. Securities and Exchange Commission</Name>
+			<Abbreviation>SEC</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>The U.S. Securities and Exchange Commission (SEC) is a federal agency. It holds primary responsibility for enforcing the federal securities laws and regulating the securities industry, the nation's stock and options exchanges, and other electronic securities markets in the United States.</Description>
+			<Location>
+				<AddressLine>100 F Street, NE</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>Washington</City>
+				<State>DC</State>
+				<Country>United States</Country>
+				<Postal>20549</Postal>
+			</Location>
+			<Date>
+				<StartDate>1934-06-06</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>Prior to the enactment of the federal securities laws and the creation of the SEC, there existed so-called blue sky laws. They were enacted and enforced at the state level, and regulated the offering and sale of securities to protect the public from fraud. Though the specific provisions of these laws varied among states, they all required the registration of all securities offerings and sales, as well as of every U.S. stock broker and brokerage firm.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.sec.gov/index.htm</Website>
+			<Telephone>(202) 942-8088</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title=”SEC Headquarters">http://www.nysun.com/pics/8339.jpg</Image>
+			<Video title="US Securities and Exchange Commission Image Film
+
+">http://www.youtube.com/watch?feature=player_detailpage&v=N-kdGmt1OLs</Video>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Facebook">http://www.facebook.com/pages/US-Securities-and-Exchange-Commission/109531262399131?fref=ts</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			
+			<Crisis cID="enron" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+			<Person pID="klay" />
+		</People>
+
+	</Organization>
+
+	<Organization oID="fdic">
+		<Info>
+			<Name>Federal Deposit Insurance Corporation</Name>
+			<Abbreviation>FDIC</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>The Federal Deposit Insurance Corporation (FDIC) is a United States government corporation operating as an independent agency created by the Banking Act of 1933. As of January 2013, it provides deposit insurance guaranteeing the safety of a depositor's accounts in member banks up to $250,000 for each deposit ownership category in each insured bank. As of September 30, 2012, the FDIC insured deposits at 7,181 institutions.[2] The FDIC also examines and supervises certain financial institutions for safety and soundness, performs certain consumer-protection functions, and manages banks in receiverships (failed banks). The FDIC receives no Congressional appropriations – it is funded by premiums that banks and thrift institutions pay for deposit insurance coverage and from earnings on investments in U.S. Treasury securities.</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>United States</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>1933-06-16</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>During the 1930s, the U.S. and the rest of the world experienced a severe economic contraction known as the Great Depression. In the U.S. during the height of the Great Depression, the official unemployment rate was 25% and the stock market had declined 75% since 1929. Bank runs were common because there was not insurance on deposits at banks, banks kept only a fraction of deposits in reserve, and customers ran the risk of losing the money that they had deposited if their bank failed. On June 16, 1933, President Franklin D. Roosevelt signed the Banking Act of 1933. This legislation established the FDIC as a temporary government corporation. The Banking Act of 1935 made the FDIC a permanent agency of the government and provided permanent deposit insurance maintained at the $5,000 level. This legislation gave the FDIC authority to provide deposit insurance to banks, to regulate and supervise state non-member banks, and funded the FDIC with initial loans of $289 million through the U.S. Treasury and the Federal Reserve, which was later paid back with interest. It also extended federal oversight to all commercial banks for the first time, separated commercial and investment banking (Glass–Steagall Act), prohibited banks from paying interest on checking accounts, and allowed national banks to branch statewide, if allowed by state law.
+</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.fdic.gov/</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="FDIC Image”>http://www.silverdoctors.com/wp-content/uploads/2012/09/FDIC.png</Image>
+			<Video title="FDIC Video">http://www.youtube.com/user/FDICchannel</Video>
+			<Map title="FDIC Map">http://www.skedco.com/Areas/MS/Content/media/shared/map_washington-dc.png</Map>
+			<Social network="Facebook">http://www.facebook.com/pages/Federal-Deposit-Insurance-Corporation/112681415413365?fref=ts</Social>
+			<Link title="Required String">VALID URL</Link>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="depress" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="froos" />
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+
+		</People>
+
+	</Organization>
+
+	<Organization oID="fedres">
+		<Info>
+			<Name>Federal Reserve</Name>
+			<Abbreviation>OPTIONAL string</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>The Federal Reserve System (also known as the Federal Reserve, and informally as the Fed) is the central banking system of the United States. It was created on December 23, 1913, with the enactment of the Federal Reserve Act, largely in response to a series of financial panics, particularly a severe panic in 1907. Over time, the roles and responsibilities of the Federal Reserve System have expanded and its structure has evolved. Events such as the Great Depression were major factors leading to changes in the system.</Description>
+			<Location>
+				<AddressLine>20th Street and Constitution Avenue N.W.</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>Washington</City>
+				<State>D.C.</State>
+				<Country>United States</Country>
+				<Postal>20551</Postal>
+			</Location>
+			<Date>
+				<StartDate>1913-12-23</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>In 1791, the government granted the First Bank of the United States a charter to operate as the U.S. central bank until 1811. The First Bank of the United States came to an end under President Madison because Congress refused to renew its charter. The Second Bank of the United States was established in. 1816, and lost its authority to be the central bank of the U.S. twenty years later under President Jackson when its charter expired. Both banks were based upon the Bank of England. Ultimately, a third national bank, known as the Federal Reserve, was established in 1913 and still exists to this day.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.federalreserve.gov/default.htm</Website>
+			<Telephone>888-851-1920</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Federal Reserve Building">http://i2.cdn.turner.com/money/2012/08/01/news/economy/federal-reserve-stimulus/federal-reserve-building.top.jpg</Image>
+			<Video title="Money, Bacnking and The Federal Reserve">http://www.youtube.com/watch?v=iYZM58dulPE</Video>
+			<Map title="Required String">VALID URL</Map>
+			<Social network="Facebook">http://www.facebook.com/TheF3d?fref=ts</Social>
+			<Link title="Required String">VALID URL</Link>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="depress" />
+			<Crisis cID="fin08" />
+			<Crisis cID="oil73" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="froos" />
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+			<Person pID="bbern" />
+		</People>
+
+	</Organization>
+	<Organization oID="un">
+		<Info>
+			<Name>United Nations</Name>
+			<Abbreviation>UN</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>The United Nations (UN; French: Organisation des Nations unies, ONU) is an international organization whose stated aims are facilitating cooperation in international law, international security, economic development, social progress, human rights, and achievement of world peace. The UN was founded in 1945 after World War II to replace the League of Nations, to stop wars between countries, and to provide a platform for dialogue. It contains multiple subsidiary organizations to carry out its missions.</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>REQUIRED string</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>1945-06-26</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>The League of Nations failed to prevent World War II (1939–1945). Because of the widespread recognition that humankind could not afford a third world war, the United Nations was established to replace the flawed League of Nations in 1945 in order to maintain international peace and promote cooperation in solving international economic, social, and humanitarian problems. The earliest concrete plan for a new world organization was begun under the aegis of the U.S. State Department in 1939. Franklin D. Roosevelt first coined the term 'United Nations' as a term to describe the Allied countries. The term was first officially used on 1 January 1942, when 26 governments signed the Atlantic Charter, pledging to continue the war effort. On 25 April 1945, the UN Conference on International Organization began in San Francisco, attended by 50 governments and a number of non-governmental organizations involved in drafting the United Nations Charter. The UN officially came into existence on 24 October 1945 upon ratification of the Charter by the five then-permanent members of the Security Council—France, the Republic of China, the Soviet Union, the United Kingdom and the United States—and by a majority of the other 46 signatories. The first meetings of the General Assembly, with 51 nations represented, and the Security Council, took place in Methodist Central Hall Westminster in London beginning 6 January 1946.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.un.org/en/index.shtml</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="United Nations Headquarters">http://www.mediafreedominternational.org/wp-content/uploads/2011/04/united-nations-headquarters.jpg</Image>
+			<Video title="United Nations Video">http://www.un.org/apps/news/story.asp?NewsID=44293#.UTjqbKV1gVA</Video>
+			<Map title="Required String">VALID URL</Map>
+			<Social network="Facebookr">http://www.facebook.com/unitednations?fref=ts</Social>
+			<Link title="Required String">VALID URL</Link>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="wtc" />
+			<Crisis cID="terror" />
+<Crisis cID="wwii" />
+<Crisis cID="greece" />
+<Crisis cID="russfin" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+			<Person pID="shuss" />
+		</People>
+
+	</Organization>
+	<Organization oID="leh">
+		<Info>
+			<Name>Lehman Brothers</Name>
+			<Abbreviation>OPTIONAL string</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>Lehman Brothers Holdings Inc. (former NYSE ticker symbol LEH) (pron.: /ˈliːmən/) was a global financial services firm. Before declaring bankruptcy in 2008, Lehman was the fourth-largest investment bank in the US (behind Goldman Sachs, Morgan Stanley, and Merrill Lynch), doing business in investment banking, equity and fixed-income sales and trading (especially U.S. Treasury securities), research, investment management, private equity, and private banking.</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>United States</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>1850</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>2008</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>In 1844, Henry Lehman immigrated from Rimpar, Germany, to Montgomery, Alabama where he established a small shop selling groceries, dry goods, and utensils to the local cotton farmers. By 1850, his two brothers, Emanuel and Mayer, had joined him in the business, and they named it Lehman Brothers. After Henry Lehman's death in 1855 at the age of 33, the two younger brothers headed the firm for the next four decades. During their tenure, only family members—sons, brothers, and cousins—were permitted as partners. This was a policy that continued until the 1920s. Soon after its founding, Lehman Brothers evolved from a general merchandising business to a commodities broker that bought and sold cotton for the planters living in and around Montgomery, Alabama. "King Cotton" dominated the economy of the southern United States in the 1850s. As the business grew, a brief partnership was formed with cotton merchant John Wesley Durr to build a cotton storage warehouse, enabling Lehman Brothers to engage in larger sales and trades. A New York office was opened in 1858, giving the firm a stronger presence in the commodities trading business as well as a foothold in the financial community.
+</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>VAILD URL</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Lehman Brothers Headquaters">http://www.cepolina.com/photo/America/New-York/skyscrapers-glass-New-York/5/New-York-skyscraper-Lehman-Brothers.jpg</Image>
+			<Video title="The Fall of Lehman Brothers">http://www.youtube.com/watch?v=oqOBnULi124</Video>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="bbern" />
+			<Person pID="bobam" />
+			<Person pID="gbush" />
+		</People>
+
+	</Organization>
+	<Organization oID="nato">
+		<Info>
+			<Name>Noth Alantic Treaty Organization</Name>
+			<Abbreviation>NATO</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>Military Alliance</Kind>
+			<Description>The North Atlantic Treaty Organization, also called the (North) Atlantic Alliance, is an intergovernmental military alliance based on the North Atlantic Treaty which was signed on 4 April 1949. The organization constitutes a system of collective defence whereby its member states agree to mutual defense in response to an attack by any external party. NATO's headquarters are in Brussels, Belgium, one of the 28 member states across North America and Europe, the newest of which, Albania and Croatia, joined in April 2009. An additional 22 countries participate in NATO's "Partnership for Peace", with 15 other countries involved in institutionalized dialogue programs. The combined military spending of all NATO members constitutes over 70% of the world's defence spending.</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>Brussels</City>
+				<State>Belgium</State>
+				<Country>Europe</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>1949-04-04</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>The Treaty of Brussels, signed on 17 March 1948 by Belgium, the Netherlands, Luxembourg, France, and the United Kingdom, is considered the precursor to the NATO agreement. The treaty and the Soviet Berlin Blockade led to the creation of the Western European Union's Defence Organization in September 1948. However, participation of the United States was thought necessary both to counter the military power of the USSR and to prevent the revival of nationalist militarism, so talks for a new military alliance began almost immediately resulting in the North Atlantic Treaty, which was signed in Washington, D.C. on 4 April 1949. It included the five Treaty of Brussels states plus the United States, Canada, Portugal, Italy, Norway, Denmark and Iceland. Popular support for the Treaty was not unanimous, and some Icelanders participated in a pro-neutrality, anti-membership riot in March 1949.
+The members agreed that an armed attack against any one of them in Europe or North America would be considered an attack against them all. Consequently they agreed that, if an armed attack occurred, each of them, in exercise of the right of individual or collective self-defence, would assist the member being attacked, taking such action as it deemed necessary, including the use of armed force, to restore and maintain the security of the North Atlantic area. The treaty does not require members to respond with military action against an aggressor. Although obliged to respond, they maintain the freedom to choose the method by which they do so. This differs from Article IV of the Treaty of Brussels, which clearly states that the response will be military in nature. It is nonetheless assumed that NATO members will aid the attacked member militarily. The treaty was later clarified to include both the member's territory and their "vessels, forces or aircraft" above the Tropic of Cancer, including some Overseas departments of France.
+</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>VAILD URL</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Image>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="terror" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+			<Person pID="shuss" />
+			<Person pID="olad" />
+		</People>
+
+	</Organization>
+	<Organization oID="alq">
+		<Info>
+			<Name>Al-Qaeda</Name>
+			<Abbreviation>OPTIONAL string</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>al-Qaeda is a global militant Islamist organization founded by Osama bin Laden at some point between August 1988 and late 1989, with its origins being traceable to the Soviet War in Afghanistan. It operates as a network comprising both a multinational, stateless army and a radical Sunni Muslim movement calling for global Jihad and a strict interpretation of sharia law. It has been designated as a terrorist organization by the United Nations Security Council, NATO, the European Union, the United Kingdom, the United States, and various other countries. Al-Qaeda has carried out several attacks on non-Muslims, and other targets it considers kafir.</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>REQUIRED string</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>1988-08-11</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>The origins of al-Qaeda as a network inspiring terrorism around the world and training operatives can be traced to the Soviet War in Afghanistan (December 1979 – February 1989).The U.S. viewed the conflict in Afghanistan, with the Afghan Marxists and allied Soviet troops on one side and the native Afghan mujahideen, some of whom were radical Islamic militants, on the other, as a blatant case of Soviet expansionism and aggression. A CIA program called Operation Cyclone channeled funds through Pakistan's Inter-Services Intelligence agency to the Afghan Mujahideen who were fighting the Soviet occupation.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>VAILD URL</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Image>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="wtc" />
+			<Crisis cID="terror" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="olad" />
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+		</People>
+
+	</Organization>
+	<Organization oID="ecb">
+		<Info>
+			<Name>European Central Bank</Name>
+			<Abbreviation>ECB</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>The European Central Bank (ECB) is one of the seven institutions of the European Union (EU) listed in the Treaty on European Union(TEU). It is the central bank for the euro and administers the monetary policy of the 17 EU member states which constitute the Eurozone, one of the largest currency areas in the world. It is thus one of the world's most important central banks.</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>Germany</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>1998-06-01</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>The European Central Bank is the de facto successor of the European Monetary Institute (EMI). The EMI was established at the start of the second stage of the EU's Economic and Monetary Union (EMU) to handle the transitional issues of states adopting the euro and prepare for the creation of the ECB and European System of Central Banks (ESCB). The EMI itself took over from the earlier European Monetary Co-operation Fund (EMCF).</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>VAILD URL</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Image>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="fin08" />
+			<Crisis cID=”greece”/>
+			<Crisis cID="russfin" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="mdrag" />
+		</People>
+
+	</Organization>
+	<Organization oID="cia">
+		<Info>
+			<Name>Central Intelligence Agency</Name>
+			<Abbreviation>CIA</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>The Central Intelligence Agency (CIA) is an independent civilian intelligence agency of the United States government. It is an executive agency and reports directly to the Director of National Intelligence,[7] with responsibility for providing national security intelligence assessment to senior United States policymakers. Intelligence-gathering is performed by non-military commissioned civilian intelligence agents, many of whom are trained to avoid tactical situations. The CIA also oversees and sometimes engages in tactical and covert activities at the request of the President of the United States.[8] Often, when such field operations are organized, the U.S. military or other warfare tacticians carry these tactical operations out on behalf of the agency while the CIA oversees them.[9] Although intelligence-gathering is the agency's main agenda, tactical divisions were established in the agency to carry out emergency field operations that require immediate suppression or dismantling of a threat or weapon.[10] The CIA's headquarters is located in Langley, McLean, Fairfax County, Virginia,[11] a few miles west of Washington, D.C.</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>United States</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>The Central Intelligence Agency was created by Congress with the passage of the National Security Act of 1947, signed into law by President Harry S. Truman. It is the descendant of the Office of Strategic Services (OSS) of World War II, which was dissolved in October 1945 and its functions transferred to the State and War Departments. Eleven months earlier, in 1944, William J. Donovan, the OSS's creator, proposed to President Franklin D. Roosevelt to create a new organization directly supervised by the President: "which will procure intelligence both by overt and covert methods and will at the same time provide intelligence guidance, determine national intelligence objectives, and correlate the intelligence material collected by all government agencies."[51] Under his plan, a powerful, centralized civilian agency would have coordinated all the intelligence services. He also proposed that this agency have authority to conduct "subversive operations abroad," but "no police or law enforcement functions, either at home or abroad.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>VAILD URL</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Image>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+
+
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="wtc" />
+			<Crisis cID="terror" />
+			<Crisis cID="wwii" />
+		</Crises>	
+
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="gbush" />
+			<Person pID="bobam" />
+			<Person pID="olad" />
+			<Person pID="shuss" />
+		</People>
+
+	</Organization>
+
+
+
+
+<Person pID="froos">
+    		<info>
+   	 		<Name>Franklin D. Roosevelt</Name>
+<Abbreviation>FDR</Abbreviation>
+<Kind>US President</Kind>
+<Description>32nd President of the United States</Description>
+<Location>
+<AddressLine></AddressLine>
+<City>Hyde Park</City>
+<State>NY</State>
+<Country>USA</Country>
+<Postal></Postal>
+</Location>
+<Date>
+<StartDate>1882-01-30</StartDate>
+<StartTime></StartTime>
+<EndDate>1945-04-12</EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in the 1880s to one of the oldest families in New York State. Married Eleanor in 1905. Appointed Asst. Secretary of the Navy in 1913. Contracted polio in 1921. Elected Governor of New York in 1929. Elected President in 1932. Died in 1945.</History>
+<ContactInfo>
+<Website></Website>
+<Telephone></Telephone>
+   	 		<Fax></Fax>
+   	 		<Email></Email>
+    		</ContactInfo>
+    		<External>
+   	 		<Image	title=”http://media.npr.org/assets/img/2012/12/18/ap07021209188_wide-5c891c581ba4583ae9dd3c2f9e16e95121c37d12-s6-c10.jpg”>
+   	 		</Image>
+   	 		<Video title=”http://www.history.com/topics/franklin-d-roosevelt/videos#fdr-a-voice-of-hope”>
+   	 		</Video>
+   	 		<Map title=””>
+   	 		</Map>
+   	 		<Social network=””>
+   	 		</Social>
+   			 <Link title=””>
+   	 		</Link>
+   	 		<Citations>
+   	 		</Citations>
+</External>
+    		<Organizations>
+   	 		<Organization oIDType=”fdic”>
+   	 		</Organization>
+   	 		<Organization oIDType=”fedres”>
+   	 		</Organization>
+    		</Organizations>
+    		<Crises>
+   	 		<Crisis cIDType=”depress”>
+   	 		</Crisis>
+   	 		<Crisis cIDType=”wwII”>
+   	 		</Crisis>
+    		</Crises>
+</Person>
+
+<Person pID="gbush">
+  		<info>
+ 	 		<Name>George W. Bush</Name>
+<Abbreviation>gbush</Abbreviation>
+<Kind>US President</Kind>
+<Description>43rd President of the United States</Description>
+<Location>
+<AddressLine>PO Box 600610</AddressLine>
+<City>Dallas</City>
+<State>TX/State>
+<Country>USA</Country>
+<Postal>75360</Postal>
+</Location>
+<Date>
+<StartDate>1946-07-06</StartDate>
+<StartTime></StartTime>
+<EndDate></EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born to a prominent political family in 1946. Married Laura Welch in 1977. Elected Governor of Texas in 1994. Elected President in 2000.</History>
+<ContactInfo>
+<Website>http://www.bushcenter.org/</Website>
+<Telephone>(214) 200-4300</Telephone>
+ 	 		<Fax>(214) 200-4301</Fax>
+ 	 		<Email>Info@BushCenter.org</Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/43gb_header_sm.jpg?1250888303”>
+ 	 		</Image>
+ 	 		<Video title=”http://www.georgewbushlibrary.smu.edu/en/Photos-and-Videos/Video-Clips/Video-Clips.aspx”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=”http://www.georgewbushlibrary.smu.edu/Home.aspx”>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”usda”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”sec”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”fdic”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”fedres”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”un”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”leh”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”nato”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”alq”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”cia”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”enron”>
+ 	 		</Crisis>
+ 	 		<Crisis cIDType=”fin08”>
+ 	 		</Crisis>
+ 	 		<Crisis cIDType=”wtc”>
+ 	 		</Crisis>
+ 	 		<Crisis cIDType=”terror”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+
+<Person pID="bobam">
+  		<info>
+ 	 		<Name>Barack Obama</Name>
+<Abbreviation>bobam</Abbreviation>
+<Kind>US President</Kind>
+<Description>44th President of the United States</Description>
+<Location>
+<AddressLine>1600 Pennsylvnia Avenue NW</AddressLine>
+<City>Washington</City>
+<State>DC</State>
+<Country>USA</Country>
+<Postal>20500</Postal>
+</Location>
+<Date>
+<StartDate>1961-08-04</StartDate>
+<StartTime></StartTime>
+<EndDate></EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1961. Married Michelle Robinson in 1992. Elected to the Illinois Senate in 1996. Elected to the US Senate in 2004. Elected President in 2008.</History>
+<ContactInfo>
+<Website>http://www.whitehouse.gov</Website>
+<Telephone>(202) 456-1414</Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email></Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://www.whitehouse.gov/sites/default/files/imagecache/gallery_img_full/image/image_file/09_p021213ck-0221.jpg”>
+ 	 		</Image>
+ 	 		<Video title=”http://www.whitehouse.gov/photos-and-video/video/2013/03/04/president-obama-makes-personnel-announcement”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”usda”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”sec”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”fdic”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”fedres”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”un”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”leh”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”nato”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”alq”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”cia”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”fin08”>
+ 	 		</Crisis>
+ 	 		<Crisis cIDType=”terror”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+
+<Person pID="shuss">
+  		<info>
+ 	 		<Name>Saddam Hussein</Name>
+<Abbreviation>shuss</Abbreviation>
+<Kind>Iraqi President</Kind>
+<Description>Fifth President of Iraq</Description>
+<Location>
+<AddressLine></AddressLine>
+<City>Al-Awja</City>
+<State></State>
+<Country>Iraq</Country>
+<Postal></Postal>
+</Location>
+<Date>
+<StartDate>1937-04-28</StartDate>
+<StartTime></StartTime>
+<EndDate>2006-12-30</EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1937 to a family of shepherds. Assumed the Presidency in 1979. Left office following a US-led invasion of Iraq in April 2003. Captured in December 2003. Executed in 2006.</History>
+<ContactInfo>
+<Website></Website>
+<Telephone></Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email></Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/12/3/1354572648813/Saddam-Hussein--010.jpg”>
+ 	 		</Image>
+ 	 		<Video title=”http://www.biography.com/people/saddam-hu47918”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”un”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”nato”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”cia”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”terror”>
+ 	 		</Crisis>
+ 	 		<Crisis cIDType=”oil73”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+<Person pID="olad">
+  		<info>
+ 	 		<Name>Osama Bin Laden</Name>
+<Abbreviation>olad</Abbreviation>
+<Kind>Terrorist Leader</Kind>
+<Description>Founder of Al Qaeda</Description>
+<Location>
+<AddressLine></AddressLine>
+<City></City>
+<State></State>
+<Country>Arabian Sea</Country>
+<Postal></Postal>
+</Location>
+<Date>
+<StartDate>1957-03-10</StartDate>
+<StartTime></StartTime>
+<EndDate>2011-05-02</EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1957 to a wealthy family. Founded Al Qaeda in 1988. Went into hiding after US-led invasion of Aghanistan in 2001. Killed in 2011.
+</History>
+<ContactInfo>
+<Website></Website>
+<Telephone></Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email></Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/5/20/1305917006019/-Osama-bin-Laden-005.jpg”>
+ 	 		</Image>
+ 	 		<Video title=”http://www.biography.com/people/osama-bin-laden-37172”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”nato”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”alq”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”cia”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”wtc”>
+ 	 		</Crisis>
+ 	 		<Crisis cIDType=”terror”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+<Person pID="klay">
+  		<info>
+ 	 		<Name>Kenneth Lay</Name>
+<Abbreviation>klay</Abbreviation>
+<Kind>American Businessman</Kind>
+<Description>CEO of Enron</Description>
+<Location>
+<AddressLine></AddressLine>
+<City>Aspen</City>
+<State>CO</State>
+<Country>USA</Country>
+<Postal></Postal>
+</Location>
+<Date>
+<StartDate>1942-04-15</StartDate>
+<StartTime></StartTime>
+<EndDate>2006-07-05</EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1942. Becomes CEO of Enron in 1990. Resigns as CEO in 2002. Found guilty of fraud and conspiracy in May 2006. Dies in July 2006.</History>
+<ContactInfo>
+<Website></Website>
+<Telephone></Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email></Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://www.biography.com/imported/images/Biography/Images/Profiles/L/Kenneth-Lay-234611-1-402.jpg”>
+ 	 		</Image>
+ 	 		<Video title=”http://www.bloomberg.com/video/74575169-deceased-enron-ceo-triumphs-over-irs-in-tax-court.html”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”sec”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”enron”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+
+<Person pID="bbern">
+  		<info>
+ 	 		<Name>Ben Bernankez</Name>
+<Abbreviation>bbern</Abbreviation>
+<Kind>Fed Chairman</Kind>
+<Description>14th Chairman of the Federal Reserve</Description>
+<Location>
+<AddressLine>20th Street and Constitution Avenue N.W.</AddressLine>
+<City>Washington</City>
+<State>DC</State>
+<Country>USA</Country>
+<Postal>20551</Postal>
+</Location>
+<Date>
+<StartDate>1953-12-13</StartDate>
+<StartTime></StartTime>
+<EndDate></EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1953. Married Anna Friedmann in 1979. Became Chairman of the Council of Economic Advisors in 2005. Became Chairman of the Federal Reserve in 2006.</History>
+<ContactInfo>
+<Website>http://www.federalreserve.gov/</Website>
+<Telephone>(202) 974-7008</Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email></Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://www.federalreserve.gov/aboutthefed/bios/board/bernanke.htm”>
+ 	 		</Image>
+ 	 		<Video title=”http://www.c-spanvideo.org/benbernanke”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”fedres”>
+ 	 		</Organization>
+ 	 		<Organization oIDType=”leh”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”fin08”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+<Person pID="chard">
+  		<info>
+ 	 		<Name>Clifford Hardin</Name>
+<Abbreviation>chard</Abbreviation>
+<Kind>Secretary of Agriculture</Kind>
+<Description>17th US Secretary of Agriculture</Description>
+<Location>
+<AddressLine></AddressLine>
+<City>Lincoln</City>
+<State>NE</State>
+<Country>USA</Country>
+<Postal></Postal>
+</Location>
+<Date>
+<StartDate>1915-10-09</StartDate>
+<StartTime></StartTime>
+<EndDate>2010-04-04</EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1915. Became Chancellor of the University of Nebraska in 1954. Appointed Secretary of Agriculture in 1969. Died in 2010.</History>
+<ContactInfo>
+<Website></Website>
+<Telephone></Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email></Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://graphics8.nytimes.com/images/2010/04/06/us/06hardin_CA1/06hardin_CA1-articleInline.jpg”>
+ 	 		</Image>
+ 	 		<Video title=””>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”USDA”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”corn70”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+
+<Person pID="mdrag">
+  		<info>
+ 	 		<Name>Mario Draghi</Name>
+<Abbreviation>mdrag</Abbreviation>
+<Kind>ECB President</Kind>
+<Description>President of the European Central Bank</Description>
+<Location>
+<AddressLine>Kaiserstrasse 29</AddressLine>
+<City>Frankfurt am Main</City>
+<State></State>
+<Country>Germany</Country>
+<Postal>60311</Postal>
+</Location>
+<Date>
+<StartDate>1947-09-03</StartDate>
+<StartTime></StartTime>
+<EndDate></EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1947. Became Italian Executive Director of the World Bank in 1984. Became Director General of the Italian Treasury in 1991. Became Governor of the Bank of Italy. in 2006. Became President of the Central Bank in 2011.
+</History>
+<ContactInfo>
+<Website>http://www.ecb.int/home/html/index.en.html</Website>
+<Telephone>49 69 13 44 0</Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email>info.ecb.europa.eu</Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://static.guim.co.uk/sys-images/Guardian/Pix/pixies/2012/9/6/1346954603380/Mario-Draghi-008.jpg”>
+ 	 		</Image>
+ 	 		<Video title=”http://video.ft.com/v/2033743054001/Mario-Draghi-Not-time-to-give-up-austerity”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”ecb”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”fin08”>
+ 	 		</Crisis>
+ 	 		<Crisis cIDType=”greece”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>
+
+<Person pID="agree">
+  		<info>
+ 	 		<Name>Alan Greenspan</Name>
+<Abbreviation>agree</Abbreviation>
+<Kind>Fed Chairman</Kind>
+<Description>13th Chairman of the Federal Reserve</Description>
+<Location>
+<AddressLine></AddressLine>
+<City></City>
+<State></State>
+<Country>USA</Country>
+<Postal></Postal>
+</Location>
+<Date>
+<StartDate>1926-03-06</StartDate>
+<StartTime></StartTime>
+<EndDate></EndDate>
+<EndTime></EndTime>
+</Date>
+</info>
+<History>Born in 1926. Became Chairman of the Federal Reserve in 1987. Married Andrea Mitchell in 1997.</History>
+<ContactInfo>
+<Website></Website>
+<Telephone></Telephone>
+ 	 		<Fax></Fax>
+ 	 		<Email></Email>
+  		</ContactInfo>
+  		<External>
+ 	 		<Image title=”http://www.biography.com/imported/images/Biography/Images/Profiles/G/Alan-Greenspan-9319769-1-402.jpg”>
+ 	 		</Image>
+ 	 		<Video title=”http://www.biography.com/people/alan-greenspan-9319769”>
+ 	 		</Video>
+ 	 		<Map title=””>
+ 	 		</Map>
+ 	 		<Social network=””>
+ 	 		</Social>
+ 			 <Link title=””>
+ 	 		</Link>
+ 	 		<Citations>
+ 	 		</Citations>
+</External>
+  		<Organizations>
+ 	 		<Organization oIDType=”fedres”>
+ 	 		</Organization>
+  		</Organizations>
+  		<Crises>
+ 	 		<Crisis cIDType=”russfin”>
+ 	 		</Crisis>
+  		</Crises>
+</Person>

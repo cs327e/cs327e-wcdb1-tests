@@ -1,0 +1,417 @@
+<xsd:schema>
+	<xsd:element name=”Crises”>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name=”Crisis” type=”CrisisType”
+minOccurs=”0” maxOccurs=”unbounded” /”>
+				<xsd:element name=”Organization” type= “OrganizationType”
+					minOccurs=”0” maxOccurs=”unbounded” />
+				<xsd:element name=”People” type=”PeopleType”
+minOccurs=”0” maxOccurs=”unbounded”/>
+				<xsd:element name=”Location” type=”LocationType”
+minOccurs=”0” maxOccurs=”unbounded”>
+			</xsd:sequence>
+		</xsd:complexType>
+
+
+		<xsd:key name=”CrisisKey”>
+			<xsd:selector xpath=”Crisis” />
+			<xsd:field xpath=”@Ident” /> 	
+		</xsd:key>
+		<xsd:key name = “OrganizationKey”>
+			<xsd:selector xpath = “Organization”/>
+			<xsd:field xpath=”@Ident””
+		</xsd:key>
+		<xsd:key name=”PeopleKey”>
+			<xsd:selector xpath=”People” />
+			<xsd:field xpath=”@Ident” />
+		</xsd: key>
+		<xsd:key name=”LocationKey”>
+			<xsd:selector xpath= “Location”/>
+			<xsd:field xpath=”@Ident”/>
+		</xsd:key>
+		<xsd:key name=”KindKey”>
+			<xsd:selector xpath=”Kind”/>
+			<xsd:field xpath=”@Ident”/>
+		</xsd:key>
+
+
+
+		<xsd:keyref name=”CrisisKeyRef” refer=“CrisisKey”>
+			<xsd:selector xpath=”Organization/cCrisis/cCri”/>
+			<xsd:selector xpath=”People/cCrisis/cCri”/>
+			<xsd:field xpath=”@crisisIdent” />
+		</xsd:keyref>
+		<xsd: keyref name= “OrganizationKeyRef” refer=”OrganizationKey”>
+			<xsd:selector xpath=”People/cOrganization/cOrg” />
+			<xsd:selector xpath= “Crisis/cOrganization/cOrg” />
+			<xsd:field xpath= “@organizationIdent” />
+		<xsd:keyref name=”PeopleKeyRef” refer=”PeopleKey”>
+			<xsd:selector xpath= ”Crisis/cPeople/cPeo” />
+			<xsd:selector xpath= “Organization/cPeople/cPeo” />
+			<xsd: field xpath= ”@peopleIdent” />
+		</xsd:keyref>
+		<xsd:keyref name=”LocationKeyRef” refer=”LocationKey”>
+			<xsd:selector xpath
+	</xsd:element>
+
+
+	<xsd:complexType name=”CrisisType”>
+		<xsd:sequence>
+			<xsd:element name = “Name” />
+			<xsd:element name = “Impact” >
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name = “Human” minOccurs = “0” >
+							<xsd:complexType>
+								<xsd:attribute name= “” ????? />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name = “Economic” minOccurs = “0” >
+							<xsd:complexType>
+								<xsd:attribute name= “” ????? />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name = “Resources” />
+			<xsd:element name = “Ways_To_Help” />
+			<xsd:element name = “URL” >
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element 	name = “Image” minOccurs = “0”   
+maxOccurs = “unbounded” >
+						</xsd:element>
+						<xsd:element 	name = “Video” minOccurs = “0”
+								maxOccurs = “unbounded” >
+						</xsd:element>
+						<xsd:element 	name = “Network” minOccurs = “0”
+								maxOccurs = “unbounded” >
+						</xsd:element>
+						<xsd:element 	name = “External” minOccurs = “0”
+								maxOccurs = “unbounded” >
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name = “Citations” />
+<xsd:element name = ”cOrganizations” >
+	<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element	name = “cOrg” minOccurs = “1”
+								maxOccurs = “unbounded” >
+							<xsd:complexType>
+								<xsd:attribute	name = “orgIdent” 
+										type = “xsd:string”
+										use = “required” />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name = ”cPeople” >
+<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element	name = “cPeo” minOccurs = “1”
+								maxOccurs = “unbounded” >
+							<xsd:complexType>
+								<xsd:attribute	name = “peoIdent” 
+										type = “xsd:string”
+										use = “required” />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+<xsd:element name = “cLocation” >
+<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element	name = “cLoc” minOccurs = “1”
+								maxOccurs = “unbounded” >
+							<xsd:complexType>
+								<xsd:attribute	name = “locIdent” 
+										type = “xsd:string”
+										use = “required” />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+<xsd:element name = “cKind” >
+<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element	name = “cKin” minOccurs = “1”
+								maxOccurs = “unbounded” >
+							<xsd:complexType>
+								<xsd:attribute	name = “kinIdent” 
+										type = “xsd:string”
+										use = “required” />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:element>
+
+
+			
+	<xsd.complexType=”OrganizationType”>
+<xsd:sequence>
+         				<xsd:element name="Name" type="xsd:string" />
+         				<xsd:element name=”History" type=”xsd:string”/>
+         				<xsd:element name= “Contact_Info” type= “xsd:int”/>
+					<xsd:attribute name =”people” type = “xsd:string” use= “required” /
+        				<xsd:element name= “URL”  type=”xsd:string”/>
+					<xsd: complexType>
+						<xsd:sequence>
+							<xsd : element	name= “Image” 
+          		maxOccurs= “Unbounded”>
+							</xsd:element>
+							<xsd:element	name = “Video”
+							        		maxOccurs= “Unbounded”>
+</xsd:element>						<xsd:element	name =”Network” minOccurs= 1 
+							        		maxOccurs= “Unbounded”>
+							</xsd:element>
+							<xsd:element	name =”External” minOccurs = 1
+							        		maxOccurs= “Unbounded”>
+							</xsd:element>
+						</xsd:sequence>
+</xsd:complexType>
+<xsd:element name = “Citations” />
+<xsd:element name = ”cOrganizations” >
+<xsd:complexType>
+<xsd:sequence>	                                                                                  		<xsd:element  	name = “cOrg” minOccurs = “1”                                                                                                           				maxOccurs = “unbounded” >
+           	                                                                        	<xsd:complexType>
+                                                                                  			<xsd:attribute  	
+name = “OrgIdent” 
+type = “xsd:string”                                                                                                                                                                                                                                                                                                                 
+                                                   	use = “required”/>                                                  				</xsd:complexType>                                                                                      			</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name = ”cPeople” >
+<xsd:complexType>
+             <xsd:sequence>
+                            					<xsd:element  	name = “cPeo” 
+                                     	minOccurs = “1”                                                                               					maxOccurs =  “unbounded” >
+             		<xsd:complexType>                                                                                     
+                   			 <xsd:attribute  	
+name = “peoIdent”                                                                                                	type = “xsd:string”
+					use = “required” />
+            		</xsd:complexType>                                                                 
+   		</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+ </xsd:element>
+<xsd:element name = “cLocation” >
+<xsd:complexType>
+          	<xsd:sequence>
+          		<xsd:element  	name = “cLoc” minOccurs = “1”
+                                                                         			maxOccurs = “unbounded” >                                                                                                     								<xsd:complexType>
+                                                                                                	<xsd:attribute  name = “locIdent”
+                                                                                                              	          type= “xsd:string”
+                                                                                                                                  use =“required” />                                                                                                     								</xsd:complexType>                                                                                                                                    							</xsd:element>
+</xsd:sequence>                                                             </xsd:complexType>
+</xsd:element>
+<xsd:element name = “cKind” >
+<xsd:complexType>
+            <xsd:sequence>
+                                                                                  	<xsd:element  	name = “cKin” minOccurs = “1”
+                                                maxOccurs = “unbounded” >                                                                                                                                   				<xsd:complexType> 
+<xsd:attribute  name = “kinIdent”
+                      type =“xsd:string”                                                                                                                                                                                                                                  ”		          use =“required”/>                                                              </xsd:complexType>
+                           </xsd:element>                                                           
+          	</xsd:sequence>
+  </xsd:complexType>
+</xsd:element>
+</xsd:element>           
+	<xsd:complexType name=”PeopleType”>
+   		 <xsd:sequence>
+			<xsd:element name=”Name” type=”xsd:string”/>
+			<xsd:element name = “URL” >
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element 	name = “Image” minOccurs = “0”   
+maxOccurs = “unbounded” >
+						</xsd:element>
+						<xsd:element 	name = “Video” minOccurs = “0”
+								maxOccurs = “unbounded” >
+						</xsd:element>
+						<xsd:element 	name = “Network” minOccurs = “0”
+								maxOccurs = “unbounded” >
+						</xsd:element>
+						<xsd:element 	name = “External” minOccurs = “0”
+								maxOccurs = “unbounded” >
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name = “Citations” />
+			<xsd:element name=”cCrisis”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cCri” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”criIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cOrganizations”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cOrg” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”orgIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cKind”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cKin” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”kinIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cLocation”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cLoc” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”locIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+<xsd:complexType name=”LocationType”>
+	<xsd:sequence>
+		<xsd:element name=”Region”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”Reg” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”regIdent” type=”xsd:string”
+									use= “required”/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”Country”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”Cntry” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”cntryIdent” type=”xsd:string”
+									use= “required”/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cCrisis”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cCri” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”criIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cOrganizations”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cOrg” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”orgIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cPeople”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cPeo” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”peoIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cKind”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cKin” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”kinIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+<xsd:complexType name=”Kind”>
+	<xsd:sequence>
+		<xsd:element name=”Gender” type=”xsd:string”/>
+		<xsd:element name=”Type” type=”xsd:string”/>
+		<xsd:element name=”cCrisis”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cCri” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”criIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cOrganizations”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cOrg” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”orgIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cPeople”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cPeo” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”peoIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name=”cLocation”>
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name=”cLoc” maxOccurs=”unbounded”>
+						<xsd:complexType>
+							<xsd:attribute name=”locIdent” type=”xsd:string”
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>							
+</xsd:schema>
