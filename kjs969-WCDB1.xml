@@ -1,0 +1,991 @@
+<?xml version="1.0" ?>
+<WorldCrisesDatabase>
+	
+	<!--Crises-->
+	
+	<Crisis cID="YF1988">
+		<Info>
+			<Name>Yellowstone Forest Fires of 1988</Name>
+			<Kind>Wildfire</Kind>
+			<Description>The Yellowstone fires of 1988 together formed the largest wildfire in the recorded history of the U.S.'s Yellowstone National Park. Starting as many smaller individual fires, the flames spread quickly out of control with increasing winds and drought and combined into one large conflagration, which burned for several months. The fires almost destroyed two major visitor destinations and, on September 8, 1988, the entire park was closed to all non-emergency personnel for the first time in its history. Only the arrival of cool and moist weather in the late autumn brought the fires to an end. A total of 793,880 acres (3,213 km2), or 36 percent of the park was affected by the wildfires. The Yellowstone fires of 1988 were unprecedented in the history of the National Park Service, and many questioned existing fire management policies. While there were temporary declines in air quality during the fires, no adverse long-term health effects have been recorded in the ecosystem.</Description>
+			<Location>
+				<City>Yellowstone National Park</City>
+				<State>Wyoming</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1988-06-23</StartDate>
+				<EndDate>1988-11-18</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 2</HumanImpact>
+		<EconomicImpact>Structural Damage: $3 million; Money Spent Fighting Fires: $120 million</EconomicImpact>
+		<ResourcesNeeded>120 helicopters and planes with over 18000 hours of flight time; Over 100 fire engines; 1.4 million gallons of fire retardant; 10 million gallons of water; 9000 firefighters; 4000 US military personell</ResourcesNeeded>
+		<WaysToHelp>Donation</WaysToHelp>
+		<External>
+			<Image title="Required String">http://www.thefurtrapper.com/images/Crown%20Fire%20Elk.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=4UgLwxK8QDs</Video>
+			<Map title="Required String">http://goo.gl/maps/ciql6</Map>
+			<Social network="Facebook">https://www.facebook.com/YellowstoneNationalParkVisitor</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Yellowstone_fires_of_1988</Link>
+			<Citation>http://usatoday30.usatoday.com/weather/wildfires/2008-08-13-yellowstone-recovers-from-1988-wildfires_N.htm</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="WN1870" />
+		</Organizations>
+		
+		<People>
+			<Person pID="GH1924" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="GF1993">
+		<Info>
+			<Name>Great Flood of 1993</Name>
+			<Kind>Flood</Kind>
+			<Description>The Great Mississippi and Missouri Rivers Flood of 1993 (or "Great Flood of 1993") occurred in the American Midwest, along the Mississippi and Missouri rivers and their tributaries, from April to October 1993. The flood was among the most costly and devastating to ever occur in the United States, with $15 billion in damages. The hydrographic basin affected cover around 745 miles (1,199 km) in length and 435 miles (700 km) in width, totaling about 320,000 square miles (830,000 km2). Within this zone, the flooded area totaled around 30,000 square miles (78,000 km2) and was the worst such U.S. disaster since the Great Mississippi Flood of 1927, as measured by duration, square miles inundated, persons displaced, crop and property damage, and number of record river levels.</Description>
+			<Location>
+				<State>Mississippi, Louisiana, Iowa, Kansas, Minnesota, Missouri, Nebraska</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1993-04-01 </StartDate>
+				<EndDate>1993-10-01</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 50</HumanImpact>
+		<EconomicImpact>Damages: $15-20 billion</EconomicImpact>
+		<ResourcesNeeded>Sandbags; Army Corps of Engineers; Army National Guard; American Red Cross</ResourcesNeeded>
+		<WaysToHelp>Donation to American Red Cross</WaysToHelp>
+		<External>
+			<Image title="Required String">http://mo.water.usgs.gov/Reports/1993-Flood/images/scan13.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=N5avsx-8xJo</Video>
+			<Map title="Required String">http://earthobservatory.nasa.gov/IOTD/view.php?id=5422	</Map>
+			<Social network="Facebook">https://www.facebook.com/pages/Great-Flood-of-1993/102266869826690</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Great_Flood_of_1993</Link>
+			<Citation>http://www.livescience.com/7508-history-repeats-great-flood-1993.html</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="NO1807" />
+		</Organizations>
+		
+	</Crisis>
+	
+	<Crisis cID="GS1987">
+		<Info>
+			<Name>Great Storm of 1987</Name>
+			<Kind>Storm</Kind>
+			<Description>The Great Storm of 1987 occurred on the night of 15 and 16 October, when gale-force winds caused casualties and extensive damage on both sides of the English Channel, as a severe depression in the Bay of Biscay moved north-east, affecting the densely-populated London and Home Counties area. Forests, parks, roads and railways were littered with fallen trees, and the National Grid suffered heavy damage, leaving thousands without power. At least 22 people were killed in England and France, and a gust of 106 kn (196 km/h; 122 mph) was recorded in Gorleston, Norfolk. That day's weather reports had failed to indicate a storm of such severity, an earlier, correct forecast having been negated by later projections.</Description>
+			<Location>
+				<City>Cornwall (UK)</City>
+				<State>OPTIONAL string</State>
+				<Country>England, France</Country>
+			</Location>
+			<Date>
+				<StartDate>1987-10-15</StartDate>
+				<EndDate>1987-10-16</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 22</HumanImpact>
+		<EconomicImpact>$24 billion</EconomicImpact>
+		<ResourcesNeeded>Electricty; Cleaning volunteers</ResourcesNeeded>
+		<WaysToHelp>Support the UK Forestry COmmission: http://www.forestry.gov.uk/forestry/infd-77ecnd</WaysToHelp>
+		<External>
+			<Image title="Required String">http://www.marketoracle.co.uk/Article2499.html</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=Umow5DSrP6E</Video>
+			<Map title="Required String">http://goo.gl/maps/Oiu3A</Map>
+			<Social network="Facebook">https://www.facebook.com/pages/Great-Storm-of-1987/132425506796646</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Great_Storm_of_1987</Link>
+			<Citation>http://www.telegraph.co.uk/earth/earthnews/3307938/Great-Storm-of-1987-twenty-years-on.html</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="FC1919" />
+		</Organizations>
+		
+		<People>
+			<Person pID="BG1939" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="CW2012">
+		<Info>
+			<Name>Colorado Wildfires</Name>
+			<Kind>Wildfire</Kind>
+			<Description>REQUIRED string</Description>
+			<Location>
+				<State>Colorado</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>2012-06-09</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 5</HumanImpact>
+		<EconomicImpact>$196.2 million</EconomicImpact>
+		<ResourcesNeeded>Water; Fire retardant; Firefighters</ResourcesNeeded>
+		<WaysToHelp>http://www.nationalfiretraining.net/</WaysToHelp>
+		<External>
+			<Image title="Required String">http://jpgreenword.files.wordpress.com/2012/07/colorado-forest-fire1.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=RGu8_tPkIGk</Video>
+			<Map title="Required String">http://goo.gl/maps/SLzsg</Map>
+			<Social network="Facebook">https://www.facebook.com/HighParkFirePage</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/2012_Colorado_forest_fires</Link>
+			<Citation>http://www.denverpost.com/wildfires</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="AR1881" />
+		</Organizations>
+		
+		<People>
+			<Person pID="JH1952" />
+			<Person pID="GM1952" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="BC1991">
+		<Info>
+			<Name>Bangladesh Cyclone</Name>
+			<Kind>Tropical cyclone</Kind>
+			<Description>he 1991 Bangladesh cyclone was among the deadliest tropical cyclones on record. On the night of 29 April 1991 a powerful tropical cyclone struck the Chittagong district of southeastern Bangladesh with winds of around 250 km/h (155 mph). The storm forced a 6 metre (20 ft) storm surge inland over a wide area, killing at least 138,000 people and leaving as many as 10 million homeless.</Description>
+			<Location>
+				<City>Chittagong</City>
+				<Country>Bangladesh</Country>
+			</Location>
+			<Date>
+				<StartDate>1991-04-24</StartDate>
+				<EndDate>1991-04-30</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 138,866</HumanImpact>
+		<EconomicImpact>$1.7 billion</EconomicImpact>
+		<ResourcesNeeded>Food; Water; Electricity</ResourcesNeeded>
+		<WaysToHelp>http://www.redcross.org/what-we-do/international-services/where-we-help/asia/bangladesh</WaysToHelp>
+		<External>
+			<Image title="Required String">http://www.islandnet.com/~see/weather/graphics/photos0708/1991_bangladesh_cyclone_track.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=dj1AdDsdF6k</Video>
+			<Map title="Required String">http://goo.gl/maps/53xuT</Map>
+			<Link title="Required String">http://en.wikipedia.org/wiki/1991_Bangladesh_cyclone</Link>
+			<Citation>http://www.reuters.com/article/2007/11/30/us-bangladesh-relief-idUSDHA33609920071130</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="HF1994" />
+		</Organizations>
+		
+		<People>
+			<Person pID="KZ1945" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="BP2010">
+		<Info>
+			<Name>BP Oil Spill</Name>
+			<Kind>Oil spill</Kind>
+			<Description>The Deepwater Horizon oil spill (also referred to as the BP oil spill) was an oil spill in the Gulf of Mexico following the explosion and sinking of the Deepwater Horizon oil rig, considered the largest accidental marine oil spill in the history of the petroleum industry. The gushing wellhead was not capped until after 87 days, on 15 July 2010. The total discharge is estimated at 4.9 million barrels (210 million US gal; 780,000 m3). A massive response ensued to protect beaches, wetlands, and estuaries from the spreading oil,  and after several failed efforts to contain the flow, the well was capped and declared sealed on 19 September 2010. However, the months of spill, along with response and cleanup activities, caused extensive damage to marine and wildlife habitats and the Gulf's fishing and tourism industries,  as well as human health problems.</Description>
+			<Location>
+				<State>Gulf of Mexico</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>2010-04-20</StartDate>
+				<EndDate>2010-06-15</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 11</HumanImpact>
+		<EconomicImpact>$4.52 billion</EconomicImpact>
+		<ResourcesNeeded>Fishing boats</ResourcesNeeded>
+		<WaysToHelp>http://www.fpnetwork.org/oilspill.php</WaysToHelp>
+		<External>
+			<Image title="Required String">http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/3/29/1301406496165/BP-Deepwater-Horizon-005.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=U454HFEdRMQ</Video>
+			<Map title="Required String">http://goo.gl/maps/ArWgs</Map>
+			<Social network="Facebook">https://www.facebook.com/BPOilCrisisInTheGulf?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill</Link>
+			<Citation>http://abcnews.go.com/US/wireStory/bp-oil-spill-judge-hears-rig-blast-survivor-18657993</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="CG1790" />
+		</Organizations>
+		
+		<People>
+			<Person pID="TH1957" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="HE2010">
+		<Info>
+			<Name>Haiti Earthquake</Name>
+			<Kind>Earthquake</Kind>
+			<Description>The 2010 Haiti earthquake was a catastrophic magnitude 7.0 Mw earthquake, with an epicenter near the town of Leogane (Ouest Department), approximately 25 km (16 miles) west of Port-au-Prince, Haiti's capital. The earthquake occurred at 16:53 local time (21:53 UTC) on Tuesday, 12 January 2010. By 24 January, at least 52 aftershocks measuring 4.5 or greater had been recorded. The government of Haiti estimated that 250,000 residences and 30,000 commercial buildings had collapsed or were severely damaged. The earthquake caused major damage in Port-au-Prince, Jacmel and other settlements in the region. Many notable landmark buildings were significantly damaged or destroyed, including the Presidential Palace, the National Assembly building, the Port-au-Prince Cathedral, and the main jail. Many countries responded to appeals for humanitarian aid, pledging funds and dispatching rescue and medical teams, engineers and support personnel. Communication systems, air, land, and sea transport facilities, hospitals, and electrical networks had been damaged by the earthquake, which hampered rescue and aid efforts; confusion over who was in charge, air traffic congestion, and problems with prioritisation of flights further complicated early relief work. Delays in aid distribution led to angry appeals from aid workers and survivors, and looting and sporadic violence were observed. On 22 January the United Nations noted that the emergency phase of the relief operation was drawing to a close, and on the following day the Haitian government officially called off the search for survivors.</Description>
+			<Location>
+				<City>Port-au-Prince</City>
+				<Country>Haiti</Country>
+			</Location>
+			<Date>
+				<StartDate>2010-1-12</StartDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 316,000</HumanImpact>
+		<EconomicImpact>$10 billion</EconomicImpact>
+		<ResourcesNeeded>Water; Food; Electricity; Clothing</ResourcesNeeded>
+		<WaysToHelp>http://omprakash.org/volunteer-abroad/country/Haiti?gclid=COPf9p6z57UCFdSmPAodbRIAbA</WaysToHelp>
+		<External>
+			<Image title="Required String">http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/haiti_01_13/h38_21698163.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=IfBdiFyxKOk</Video>
+			<Map title="Required String">http://goo.gl/maps/agYtw</Map>
+			<Social network="Facebook">https://www.facebook.com/helphaiti?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/2010_Haiti_earthquake</Link>
+			<Citation>http://www.telegraph.co.uk/news/worldnews/centralamericaandthecaribbean/haiti/6987570/Haiti-earthquake-updates.html</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="HR2010" />
+		</Organizations>
+		
+		<People>
+			<Person pID="RJ1931" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="HK2005">
+		<Info>
+			<Name>Hurricane Katrina</Name>
+			<Kind>Hurricane</Kind>
+			<Description>Hurricane Katrina was the deadliest and most destructive Atlantic hurricane of the 2005 Atlantic hurricane season. It was the costliest natural disaster, as well as one of the five deadliest hurricanes, in the history of the United States. Hurricane Katrina formed over the Bahamas on August 23, 2005 and crossed southern Florida as a moderate Category 1 hurricane, and strengthened to a Category 5 hurricane over the warm Gulf water, but weakened before making its second landfall as a Category 3 hurricane on the morning of August 29 in southeast Louisiana. It caused severe destruction along the Gulf coast, but the most significant number of deaths occurred in New Orleans, Louisiana, which flooded as the levee system catastrophically failed, in many cases hours after the storm had moved inland. The hurricane surge protection failures in New Orleans are considered the worst civil engineering disaster in U.S. history.</Description>
+			<Location>
+				<City>New Orleans</City>
+				<State>Louisiana</State>
+				<Country>United States</Country>
+			</Location>
+			<Date>
+				<StartDate>2005-08-23</StartDate>
+				<EndDate>2005-08-30</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 1,833</HumanImpact>
+		<EconomicImpact>$108 billion</EconomicImpact>
+		<ResourcesNeeded>Water; Food; Electricity</ResourcesNeeded>
+		<WaysToHelp>http://www.hurricanekatrinarelief.com/ways_to_help.html</WaysToHelp>
+		<External>
+			<Image title="Required String">http://www.katrina.noaa.gov/images/katrina-08-28-2005.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=s76Qn7bpCsQ</Video>
+			<Map title="Required String">http://goo.gl/maps/9BAMf</Map>
+			<Social network="Facebook">https://www.facebook.com/pages/Hurricane-Katrina/109481212402991</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Hurricane_katrina</Link>
+			<Citation>http://topics.nytimes.com/top/reference/timestopics/subjects/h/hurricane_katrina/index.html</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="FE1979" />
+		</Organizations>
+		
+		<People>
+			<Person pID="GW1946" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="HS2012">
+		<Info>
+			<Name>Hurricane Sandy</Name>
+			<Kind>Hurricane</Kind>
+			<Description>Hurricane Sandy was a powerful tropical cyclone that devastated portions of the Caribbean and the Mid-Atlantic and Northeastern United States during late October 2012, with lesser impacts in the Southeastern and Midwestern states and Eastern Canada. The severe and widespread damage the storm caused in the United States, as well as its unusual merge with a frontal system, resulted in the nicknaming of the hurricane by the media and several organizations of the U.S. government "Superstorm Sandy". In the United States, Hurricane Sandy affected 24 states, including the entire eastern seaboard from Florida to Maine and west across the Appalachian Mountains to Michigan and Wisconsin, with particularly severe damage in New Jersey and New York. Damage in the US is estimated at over $71 billion (2012 USD).</Description>
+			<Location>
+				<City>Brigantine</City>
+				<State>New Jersey</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>2012-10-22</StartDate>
+				<EndDate>2012-10-31</EndDate>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 285</HumanImpact>
+		<EconomicImpact>$75 billion</EconomicImpact>
+		<ResourcesNeeded>Water; Food; Electricity</ResourcesNeeded>
+		<WaysToHelp>http://www.121212concert.org/</WaysToHelp>
+		<External>
+			<Image title="Required String">http://s3-eu-west-1.amazonaws.com/cdn0.virgin.com/uploads/images/story/sandy-16128-530x330.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=FKR_2T__cB4</Video>
+			<Map title="Required String">http://goo.gl/maps/7cMkv</Map>
+			<Social network="Facebook">https://www.facebook.com/pages/Hurricane-Sandy/506493399380778?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Hurricane_Sandy</Link>
+			<Citation>http://www.huffingtonpost.com/2013/02/12/hurricane-sandy-second-costliest_n_2669686.html?utm_hp_ref=hurricane-sandy-2012</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="SR2012" />
+		</Organizations>
+		
+		<People>
+			<Person pID="BO1961" />
+			<Person pID="GM1952" />
+		</People>
+		
+	</Crisis>
+	
+	<Crisis cID="TE2011">
+		<Info>
+			<Name>Tohoku Earthquake and Tsunami</Name>
+			<Kind>Earthquake</Kind>
+			<Kind>Tsunami</Kind>
+			<Description>The 2011 earthquake off the Pacific coast of Tohoku was a magnitude 9.03 (Mw) undersea megathrust earthquake off the coast of Japan that occurred at 14:46 JST (05:46 UTC) on 11 March 2011,[2][3][12] with the epicentre approximately 70 kilometres (43 mi) east of the Oshika Peninsula of Tohoku and the hypocenter at an underwater depth of approximately 32 km (20 mi). It was the most powerful known earthquake ever to have hit Japan, and one of the five most powerful earthquakes in the world since modern record-keeping began in 1900. The earthquake triggered powerful tsunami waves that reached heights of up to 40.5 metres (133 ft) in Miyako in Tohoku's Iwate Prefecture,[16][17] and which, in the Sendai area, travelled up to 10 km (6 mi) inland. The earthquake and tsunami also caused extensive and severe structural damage in north-eastern Japan, including heavy damage to roads and railways as well as fires in many areas, and a dam collapse. The tsunami caused nuclear accidents, primarily the level 7 meltdowns at three reactors in the Fukushima Daiichi Nuclear Power Plant complex, and the associated evacuation zones affecting hundreds of thousands of residents.</Description>
+			<Location>
+				<City>Tohoku</City>
+				<Country>Japan</Country>
+			</Location>
+			<Date>
+				<StartDate>2011-3-11</StartDate>
+				<StartTime>14:46:23</StartTime>
+			</Date>
+		</Info>
+		<HumanImpact>Casualties: 15,880</HumanImpact>
+		<EconomicImpact>$309 billion</EconomicImpact>
+		<ResourcesNeeded>Water; Food; Electricity; Volunteers</ResourcesNeeded>
+		<WaysToHelp>Donate to Red Cross and UNICEF</WaysToHelp>
+		<External>
+			<Image title="Required String">http://www.japansociety.org.uk/wp-content/uploads/2011/03/191102_182750075103717_182740125104712_433276_3988833_o1.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=9nTlgtf7TME</Video>
+			<Map title="Required String">http://goo.gl/maps/zHUo3</Map>
+			<Social network="Facebook">https://www.facebook.com/WeSupportJapan?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami</Link>
+			<Citation>http://www.thestar.com/life/travel/2011/03/24/japanese_earthquake_impacts_canada_us_tourism.html</Citation>
+		</External>
+		
+		<Organizations>
+			<Organization oID="JE2011" />
+		</Organizations>
+		
+		<People>
+			<Person pID="MS1957" />
+		</People>
+		
+	</Crisis>
+	
+	<!--ORGANIZATIONS-->
+	
+	<Organization oID="WN1870">
+		<Info>
+			<Name>Wyoming National Guard</Name>
+			<Abbreviation>WNG</Abbreviation>
+			<Kind>Government</Kind>
+			<Description>The Wyoming Military Department is part of the Government of Wyoming. Its primary components are the Wyoming Army National Guard, and the Wyoming Air National Guard. The most important component of the Wyoming Air National Guard is the 153d Airlift Wing. The National Guard's roots date back to 1636, when colonial militias made up of ordinary citizens would put down their plows and pick up weapons to protect families and towns from hostile attacks.</Description>
+			<Location>
+				<City>Washington, D.C.</City>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1870-04-04</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://www.nationalguard.com/</Website>
+			<Telephone>307-772-5241</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">http://wynga.org/wp-content/uploads/2010/12/Logo.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=OvKgS4aViuI</Video>
+			<Map title="Required String">http://goo.gl/maps/ho3mA</Map>
+			<Social network="Facebook">https://www.facebook.com/USarmy?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Wyoming_National_Guard</Link>
+			<Citation>http://www.nytimes.com/1988/08/28/us/1200-more-soldiers-joining-firefighters-in-west.html</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="YF1998" />
+		</Crises>	
+		
+	</Organization>
+	
+	<Organization oID="NO1970">
+		<Info>
+			<Name>National Oceanic and Atmospheric Administration</Name>
+			<Abbreviation>NOAA</Abbreviation>
+			<Kind>Government</Kind>
+			<Description>The National Oceanic and Atmospheric Administration (NOAA) is a scientific agency within the United States Department of Commerce focused on the conditions of the oceans and the atmosphere. NOAA warns of dangerous weather, charts seas and skies, guides the use and protection of ocean and coastal resources, and conducts research to improve understanding and stewardship of the environment. In addition to its civilian employees, NOAA research and operations are supported by 300 uniformed service members who make up the NOAA Commissioned Officer Corps.</Description>
+			<Location>
+				<City>Washington, D.C.</City>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1970-10-03</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://www.noaa.gov/index.html</Website>
+			<Telephone>303-497-6643</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsAZMSe3IsAL9DXKoRPRsfvmGEopwjrXw30qsByB1BGIqMhC_u</Image>
+			<Video title="Required String">http://oceanservice.noaa.gov/video.html</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;ie=UTF-8&amp;q=noaa+address&amp;fb=1&amp;gl=us&amp;hq=noaa&amp;cid=0,0,1163206300988020795&amp;ei=8sU2UbHVO7O42QXDj4HoAg&amp;sqi=2&amp;ved=0CIABEPwSMAM</Map>
+			<Social network="Facebook">https://www.facebook.com/NOAAClimateGov?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Noaa</Link>
+			<Citation>http://www.livescience.com/7508-history-repeats-great-flood-1993.html</Citation>
+		</External>
+		
+		
+		<Crises>
+			<Crisis cID="GF1993" />
+		</Crises>
+		
+	</Organization>
+	
+	<Organization oID="FC1919">
+		<Info>
+			<Name>Forestry Commission GB</Name>
+			<Kind>Government</Kind>
+			<Description>The Forestry Commission is a non-ministerial government department responsible for forestry in Great Britain. It was set up in 1919 to expand Britain's forests and woodland after depletion during the First World War. To do this the commission bought large amounts of former agricultural land, eventually becoming the largest land owner in Britain. Over time the purpose of the Commission broadened to include many other activities beyond timber production. Protecting and improving biodiversity across Britain's forests are both part of the Forestry Commission's remit.</Description>
+			<Location>
+				<Country>England</Country>
+			</Location>
+			<Date>
+				<StartDate>1919-01-01</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://www.forestry.gov.uk/england</Website>
+			<Telephone>0117-906-6000</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT85ygEKqeVTvP8Px_IMjre6pGjfH5ljQGbh-YkUok_pYWLSe0f</Image>
+			<Video title="Required String">http://www.forestry.gov.uk/england</Video>
+			<Map title="Required String">http://maps.google.co.uk/maps?q=BS16+1EJ&amp;hl=en&amp;sll=55.941247,-3.271253&amp;sspn=0.010852,0.018046&amp;hnear=Bristol+BS16+1EJ,+United+Kingdom&amp;t=m&amp;z=16</Map>
+			<Social network="Facebook">https://www.facebook.com/pages/Forestry-Commission/104066822962188</Social>
+			<Link title="Required String">http://www.forestry.gov.uk/england</Link>
+			<Citation>http://www.independent.co.uk/news/great-storm-that-made-us-green-and-pleasant-1239088.html</Citation>
+		</External>
+		
+		
+		<Crises>
+			<Crisis cID="GS1987" />
+		</Crises>
+		
+	</Organization>
+	
+	<Organization oID="AR1881">
+		<Info>
+			<Name>American Red Cross</Name>
+			<Abbreviation>ARC</Abbreviation>
+			<Kind>Social Work</Kind>
+			<Description>The American Red Cross (ARC), also known as the American National Red Cross, is a humanitarian organization that provides emergency assistance, disaster relief and education inside the United States. It is the designated U.S. affiliate of the International Federation of Red Cross and Red Crescent Societies. Today, in addition to domestic disaster relief, the American Red Cross offers services in five other areas: community services that help the needy; communications services and comfort for military members and their family members; the collection, processing and distribution of blood and blood products; educational programs on preparedness, health, and safety; and international relief and development programs. The American Red Cross is headquartered in Washington, D.C.</Description>
+			<Location>
+				<City>Washington, D.C.</City>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1881-05-21</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://www.redcross.org/</Website>
+			<Telephone>1-800-733-2767</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">http://www.bghealthservices.com/wp-content/uploads/2011/10/american-red-cross.jpg</Image>
+			<Video title="Required String">http://www.redcross.org/about-us/media/media-video-library</Video>
+			<Map title="Required String">https://maps.google.com/maps?q=2025+E+Street+Washington,+DC+20006</Map>
+			<Social network="Facebook">https://www.facebook.com/redcross</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/American_red_cross</Link>
+			<Citation>http://www.boston.com/news/nation/articles/2012/03/26/evacuations_ordered_as_wildfires_spread_in_colo/</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="CW2012" />
+		</Crises>	
+		
+		<People>
+			<Person pID="GM1952" />
+		</People>
+		
+	</Organization>
+	
+	<Organization oID="HF1994">
+		<Info>
+			<Name>Humanity First UK</Name>
+			<Kind>Social Work</Kind>
+			<Description>Humanity First is an international charitable trust established to promote and safeguard the preservation of human life and dignity. The organisation works with vulnerable communities in over 40 countries spanning 6 continents, and is now registered in 33 countries. The organisation is run by volunteers around the world, and even in operations, expert medical, engineering, educational and technical staff often pay their own way to support international projects.The organization was started by the Ahmadiyya Muslim Community. The organisation cites efficiencies through the extensive use of volunteers, partnerships and global sourcing resulting in over 93% of funds going straight to projects, and the actual aid value (including free man-hours of doctors, engineers etc.) delivered is significantly (often 50 times) greater than the value of donations received.</Description>
+			<Location>
+				<City>London</City>
+				<Country>England</Country>
+			</Location>
+			<Date>
+				<StartDate>1994-01-01</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://uk.humanityfirst.org/index.php?option=com_content&amp;task=view&amp;id=182</Website>
+			<Telephone>+44-(0)20-8417-0082</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">http://www.themuslimtimes.org/wp-content/uploads/2012/06/humanity-first-II.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=-LNpahd9ktA</Video>
+			<Map title="Required String">https://maps.google.com/maps?q=22+Deer+Park+Road+London</Map>
+			<Social network="Facebook">https://www.facebook.com/pages/Humanity-First/109851475701310</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Humanity_First</Link>
+			<Citation>http://allafrica.com/stories/200511290809.html</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="BC1991" />
+		</Crises>	
+		
+	</Organization>
+	
+	<Organization oID="US1790">
+		<Info>
+			<Name>United States Coast Guard</Name>
+			<Abbreviation>USCG</Abbreviation>
+			<Kind>Government</Kind>
+			<Description>The United States Coast Guard (USCG) is a branch of the United States Armed Forces and one of the seven U.S. uniformed services. The Coast Guard is a maritime, military, multi-mission service unique among the U.S. military branches for having a maritime law enforcement mission (with jurisdiction in both domestic and international waters) and a federal regulatory agency mission as part of its mission set. It operates under the Department of Homeland Security during peacetime, and can be transferred to the Department of the Navy by the President at any time, or by Congress during time of war. As of August 2009 the Coast Guard had approximately 42,000 men and women on active duty, 7,500 reservists, 30,000 auxiliarists, and 7,700 full-time civilian employees. The Coast Guard's enduring roles are maritime safety, security, and stewardship.</Description>
+			<Location>
+				<City>Washington, D.C.</City>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1790-08-04</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://www.gocoastguard.com/</Website>
+			<Telephone>202-372-4411</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</Image>
+			<Video title="Required String">http://www.uscg.mil/top/downloads/video.asp</Video>
+			<Map title="Required String">https://maps.google.com/maps?q=2100+Second+Street,+SW,+in+Washington,+D.C.</Map>
+			<Social network="Facebook">https://www.facebook.com/UScoastguard?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Us_coast_guard</Link>
+			<Citation>http://abcnews.go.com/WN/article/bp-oil-spill-gov-bobby-jindal-orders-national/story?id=10914348</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="BP2010" />
+		</Crises>	
+		
+	</Organization>
+	
+	<Organization oID="FE1979">
+		<Info>
+			<Name>Federal Emergency Management Agency</Name>
+			<Abbreviation>FEMA</Abbreviation>
+			<Kind>Government</Kind>
+			<Description>The Federal Emergency Management Agency (FEMA) is an agency of the United States Department of Homeland Security. The agency's primary purpose is to coordinate the response to a disaster that has occurred in the United States and that overwhelms the resources of local and state authorities. The governor of the state in which the disaster occurs must declare a state of emergency and formally request from the president that FEMA and the federal government respond to the disaster. FEMA also provides these services for territories of the United States, such as Puerto Rico. While on-the-ground support of disaster recovery efforts is a major part of FEMA's charter, the agency provides state and local governments with experts in specialized fields and funding for rebuilding efforts and relief funds for infrastructure by directing individuals to access low interest loans, in conjunction with the Small Business Administration. In addition to this, FEMA provides funds for training of response personnel throughout the United States and its territories as part of the agency's preparedness effort.</Description>
+			<Location>
+				<City>Washington, D.C.</City>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1978-06-19</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://www.fema.gov/</Website>
+			<Telephone>202-646-2500</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVV8s31JYqlw6hkFqVKIheTSFSZoRDBMHwghmc7VjToQDjUA0Z</Image>
+			<Video title="Required String">http://www.fema.gov/medialibrary/media_records/6407</Video>
+			<Map title="Required String">https://maps.google.com/maps?q=500+C+Street+SW,+Washington,+DC+20472&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89b7b782510c5fe1:0xa77af4b17332b797,500+C+St+SW,+Washington,+DC+20547&amp;gl=us&amp;ei=ZbM2UYaTCOeD2QXM5YGICg&amp;ved=0CDUQ8gEwAQ</Map>
+			<Social network="Facebook">https://www.facebook.com/FEMA?fref=ts</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Fema</Link>
+			<Citation>http://www.utsandiego.com/news/2011/dec/28/6-years-later-katrina-victims-fight-fema-debts/</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="HK2005" />
+		</Crises>	
+		
+	</Organization>
+	
+	<Organization oID="HR2010">
+		<Info>
+			<Name>Haiti Relief Fund</Name>
+			<Kind>Social Work</Kind>
+			<Description>The Foundation of Haiti Relief Fund goal is to solicit, collect, and otherwise raise funds to provide disaster relief; to collect and distribute medical supplies, food, clothing and other necessary items; to aid and assist exclusively the residents of Haiti and organizations doing humanitarian work in Haiti. Over the past two years, Haiti Relief Fund has been providing basic emergency relief to the earthquake victims of Haiti by providing basic needs of food, water, clothing, temporary shelter, hygiene materials such as soap, chlorine bleach to fight contagious diseases, medical supplies. Assisting in rebuilding homes, schools, medical clinics by distributing donated building, educational and medical materials is also part of the Haiti Relief Fund mission to continue as humanitarian relief.</Description>
+			<Location>
+				<State>New York</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>2010-01-12</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://haitirelieffund.org/haiti-relief/</Website>
+			<Telephone>516-578-0603</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">http://static.guim.co.uk/sys-images/Money/Pix/pictures/2010/1/18/1263820573210/Haiti-relief-fund.-Consum-001.jpgL</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=KO1ZDvzXnqI</Video>
+			<Map title="Required String">https://maps.google.com/maps?q=48-D+ATLANTIC+AVENUE+LYNBROOK,+NY+11563</Map>
+			<Social network="Facebook">https://www.facebook.com/helphaiti?fref=ts</Social>
+			<Link title="Required String">http://haitirelieffund.org/haiti-relief/</Link>
+			<Citation>http://www.bizjournals.com/milwaukee/stories/2010/01/11/daily61.html</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="HE2010" />
+		</Crises>	
+		
+	</Organization>
+	
+	<Organization oID="HR2012">
+		<Info>
+			<Name>Hurricane Sandy Relief Foundation</Name>
+			<Abbreviation>HSRF</Abbreviation>
+			<Kind>Social Work</Kind>
+			<Description>The HSRF was established to raise awareness, organize volunteer service efforts, and extend relief to Sandy victims. All of our donations go towards food, clothing, supplies, aid in rescue and clean up efforts, and the future rebuilding of communities and lives destroyed by Hurricane Sandy.</Description>
+			<Location>
+				<State>New Jersey</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>2012-10-30</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://sandyrelief.org/</Website>
+			<Email>help@sandyrelief.org</Email>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">http://wp.lehman.edu/lehman-today/wp-content/uploads/2012/11/hurricane_relief1.jpg</Image>
+			<Map title="Required String">http://goo.gl/maps/OEXVa</Map>
+			<Social network="Facebook">https://www.facebook.com/sandyrelieforg?fref=ts</Social>
+			<Citation>http://bronx.news12.com/news/nj-sued-hurricane-sandy-relief-foundation-must-freeze-donations-1.4732631?firstfree=yes</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="HS2012" />
+		</Crises>	
+		
+	</Organization>
+	
+	<Organization oID="JE2011">
+		<Info>
+			<Name>Japan Earthquake Relief Fund</Name>
+			<Kind>Social Work</Kind>
+			<Description>On March 12, 2011, Japan Society created the Japan Earthquake Relief Fund, a disaster relief fund to aid victims of the Great East Japan Earthquake. Japan Society is working to gauge the long-term needs of those affected by the disaster with the goal of supporting organizations that will contribute to continuing recovery and reconstruction.</Description>
+			<Location>
+				<State>New York</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>2011-03-12</StartDate>
+			</Date>
+		</Info>
+		<ContactInfo>
+			<Website>http://www.japansociety.org/earthquake</Website>
+			<Telephone>212-832-1155</Telephone>
+		</ContactInfo>
+		<External>
+			<Image title="Required String">https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSy189s8IGdyRjRD7xGdgIDkd5x9AD5Z-R2JPwjp4r9EjCUeVgc8A</Image>
+			<Video title="Required String">www.youtube.com/watch?v=CJSExJxUzZE</Video>
+			<Map title="Required String">https://maps.google.com/maps?q=333+East+47th+Street++New+York,+New+York+10017</Map>
+			<Social network="Facebook">https://www.facebook.com/jap4life</Social>
+			<Link title="Required String">http://www.japansociety.org/earthquake</Link>
+			<Citation>http://globenewswire.com/news-release/2013/03/02/527687/10023840/en/Japanese-Canadian-Cultural-Centre-s-JCCC-Foundation-Directs-1-5-Million-to-Support-Children-Affected-by-the-3-11-Earthquake-Tsunami-Nuclear-Disaster.html</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="TE2011" />
+		</Crises>
+		
+	</Organization>
+	
+	<!--People-->
+	
+	<Person pID="RJ1931">
+		<Info>
+			<Name>Raymond Joseph</Name>
+			<Kind>Haitian ambassador to United States</Kind>
+			<Description>Raymond Alcide Joseph is a Haitian diplomat, political activist and journalist. He was the Haitian ambassador to the United States from 2005 to 2010, when he resigned to present himself as a candidate in the 2010 Presidential Election in Haiti. </Description>
+			<Location>
+				<City>Les Cayes</City>
+				<Country>Haiti</Country>
+			</Location>
+			<Date>
+				<StartDate>1931-08-31</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://genesisnetwork.files.wordpress.com/2010/10/m_10260joseph-jpg.jpg</Image>
+			<Video title="Required String">http://youtu.be/Tx3iWRMDWYE</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=les+cayes+haiti&amp;ie=UTF-8&amp;hq=&amp;hnear=0x8ec79c004d1d382d:0xe1470fc907574ec8,Les+Cayes,+Haiti&amp;gl=us&amp;ei=g042UfykDcau2gXNuYCwDA&amp;sqi=2&amp;ved=0CLcBELYD</Map>
+			<Social network="Twitter">https://twitter.com/noutoutla</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Raymond_Joseph</Link>
+			<Citation>http://baltimorepostexaminer.com/making-haiti-green-again/2013/01/23</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="HE2010" />
+		</Crises>	
+
+	</Person>
+	
+	<Person pID="MS1957">
+		<Info>
+			<Name>Masayoshi Son</Name>
+			<Kind>Donator, CEO of Softbank</Kind>
+			<Description>Masayoshi Son is a Japanese businessman and the founder and current chief executive officer of SoftBank, and the chief executive officer of SoftBank Mobile. According to Forbes magazine, his net worth is $8.1 billion as of 2011 and he is the second richest man in Japan, despite being the person who has lost the most money in history (approximately $70 billion in the dot com crash of 2000). Forbes also describes him as a philanthropist.</Description>
+			<Location>
+				<City>Tosu</City>
+				<State>Saga Prefecture</State>
+				<Country>Japan</Country>
+			</Location>
+			<Date>
+				<StartDate>1957-08-11</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://en.wikipedia.org/wiki/File:%EC%82%AC%EB%B3%B8_-Masayoshi_Son.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=uOlf1uGBoCQ</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=Tosu,+Saga+Prefecture,+Japan&amp;ie=UTF-8&amp;hq=&amp;hnear=0x3541a33effaffa23:0x1d4fab999f3d051d,Tosu,+Saga+Prefecture,+Japan&amp;gl=us&amp;ei=oU82Ue-NMsej2QXH-YDQDw&amp;ved=0CKkBELYD</Map>
+			<Social network="Twitter">https://twitter.com/masason</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Masayoshi_Son</Link>
+			<Citation>http://www.forbes.com/profile/masayoshi-son/</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="JE2011" />
+		</Crises>	
+
+	</Person><Person pID="GM1952">
+		<Info>
+			<Name>Gail J. McGovern</Name>
+			<Kind>President and CEO of American Red Cross</Kind>
+			<Description>Gail J.McGovern became President and CEO of the American Red Cross on June 23, 2008. McGovern held top management positions at AT&amp;T Corporation and Fidelity Investments. She is a member of the Board of Trustees of Johns Hopkins University and the Board of Directors of DTE Energy.</Description>
+			<Location>
+				<City>Springfield</City>
+				<State>New Jersey</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1952-01-12</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://www.redcross.org/images/MEDIA_CustomProductCatalog/m6040198_514x260-gail-mcgovern.jpg</Image>
+			<Video title="Required String">http://youtu.be/Qj9KBd8TtlI</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=springfield+new+jersey&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89c3ae17330c14f1:0xf114213925797882,Springfield+Township,+NJ&amp;gl=us&amp;ei=-1A2Uaa2L8rC2QWepYDYDg&amp;ved=0CLQBELYD</Map>
+			<Social network="Twitter">https://twitter.com/RedCross</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Gail_J._McGovern</Link>
+			<Citation>http://www.huffingtonpost.com/gail-mcgovern/a-record-year-of-disaster_b_1165386.html</Citation>
+		</External>
+
+		<Organizations>
+			<Organization oID="AR1881" />
+		</Organizations>
+		
+		<Crises>
+			<Crisis cID="CW2012" />
+		</Crises>	
+
+	</Person><Person pID="GW1946">
+		<Info>
+			<Name>George W. Bush</Name>
+			<Kind>US President from 2001-2009</Kind>
+			<Description>George Walker Bush is an American politician and businessman who was the 43rd President of the United States from 2001 to 2009 and the 46th Governor of Texas from 1995 to 2000. Bush was elected president in 2000 after a close and controversial election, becoming the fourth president to be elected while receiving fewer popular votes nationwide than his opponent. Eight months into Bush's first term as president, the September 11, 2001 terrorist attacks occurred. In response, Bush announced the War on Terror, an international military campaign which included the war in Afghanistan launched in 2001 and the war in Iraq launched in 2003. In addition to national security issues, Bush also promoted policies on the economy, health care, education, and social security reform. He signed into law broad tax cuts, the PATRIOT Act, the No Child Left Behind Act, the Partial-Birth Abortion Ban Act, and Medicare prescription drug benefits for seniors. His tenure saw national debates on immigration, Social Security, electronic surveillance, and enhanced interrogation techniques. Bush left office in 2009, and was succeeded as president by Barack Obama, who ran on a platform of change from Bush's policies.</Description>
+			<Location>
+				<City>New Haven</City>
+				<State>Connecticut</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1946-07-06</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://en.wikipedia.org/wiki/File:George-W-Bush.jpeg</Image>
+			<Video title="Required String">http://youtu.be/DEbZqvMu2cQ</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=new+haven+ct&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89e7d8443a8070e5:0xf6a354c659b264ed,New+Haven,+CT&amp;gl=us&amp;ei=flE2Ua_gNqLE2gXI64C4DQ&amp;sqi=2&amp;ved=0CLgBELYD</Map>
+			<Social network="Twitter">https://twitter.com/GeorgeBush</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/George_W._Bush</Link>
+			<Citation>http://www.randomhouse.com/crown/features/decision-points-by-george-w-bush/</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="HK2005" />
+		</Crises>	
+
+	</Person><Person pID="BO1961">
+		<Info>
+			<Name>Barack Obama</Name>
+			<Kind>US President from 2009-present</Kind>
+			<Description>Barack Hussein Obama II is the 44th and current President of the United States. He is the first African American to hold the office. He was a community organizer in Chicago before earning his law degree. He worked as a civil rights attorney in Chicago and taught constitutional law at the University of Chicago Law School from 1992 to 2004. He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, running unsuccessfully for the United States House of Representatives in 2000. In foreign policy, Obama ended U.S. military involvement in the Iraq War, increased troop levels in Afghanistan, signed the New START arms control treaty with Russia, ordered U.S. military involvement in Libya, and ordered the military operation that resulted in the death of Osama bin Laden.</Description>
+			<Location>
+				<City>Honolulu</City>
+				<State>Hawaii</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1961-08-04</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://en.wikipedia.org/wiki/File:President_Barack_Obama.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=zncqb-n3zMo</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=honolulu+hawaii&amp;ie=UTF-8&amp;hq=&amp;hnear=0x7c00183b8cc3464d:0x4b28f55ff3a7976c,Honolulu,+HI&amp;gl=us&amp;ei=zVU2UZqUDarg2wW1ioAI&amp;sqi=2&amp;ved=0CLkBELYD</Map>
+			<Social network="Twitter">https://twitter.com/BarackObama</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Barack_Obama</Link>
+			<Citation>http://www.whitehouse.gov/administration/president-obama</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="HS2012" />
+		</Crises>	
+
+	</Person><Person pID="BG1939">
+		<Info>
+			<Name>Bill Giles</Name>
+			<Kind>Met Office Forecaster</Kind>
+			<Description>William George Giles OBE is a former British weather forecaster and television presenter. He 'retired' from the Met Office in January 2000 after having led the team of Broadcast Meteorologists since 1983.</Description>
+			<Location>
+				<City>Dartmouth</City>
+				<State>Devon</State>
+				<Country>England</Country>
+			</Location>
+			<Date>
+				<StartDate>1939-11-18</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://news.bbc.co.uk/olmedia/535000/images/_537880_bill_giles_150.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=8_HjEz_us4I</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</Map>
+			<Social network="Facebook">https://www.facebook.com/noelgiles</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Bill_Giles_(meteorologist)</Link>
+			<Citation>http://www.telegraph.co.uk/topics/weather/9859579/Forecaster-Bill-Giles-tells-Lord-Smith-its-not-a-new-kind-of-rain.-Its-completely-normal.html</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="GS1987" />
+		</Crises>	
+
+	</Person>
+	
+	<Person pID="TH1957">
+		<Info>
+			<Name>Tony Hayward</Name>
+			<Kind>BP CEO</Kind>
+			<Description>Anthony Bryan "Tony" Hayward is a British businessman, the former chief executive of oil and energy company BP. He replaced John Browne, Baron Browne of Madingley on 1 May 2007. His tenure ended on 1 October 2010 due to his weak management of the Deepwater Horizon oil spill. He was replaced by Bob Dudley.</Description>
+			<Location>
+				<City>Slough</City>
+				<State>Buckinghamshire</State>
+				<Country>England</Country>
+			</Location>
+			<Date>
+				<StartDate>1957-05-21</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://en.wikipedia.org/wiki/File:Tony_Hayward_-_World_Economic_Forum_on_the_Middle_East_2008.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=MTdKa9eWNFw</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</Map>
+			<Social network="Twitter">https://twitter.com/bpcaresUK</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Tony_Hayward</Link>
+			<Citation>http://www.nytimes.com/2012/09/02/business/tony-hayward-former-bp-chief-returns-to-oil.html?pagewanted=all&amp;_r=0</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="BP2010" />
+		</Crises>	
+
+	</Person>
+	
+	<Person pID="GH1924">
+		<Info>
+			<Name>George H.W. Bush</Name>
+			<Kind>President from 1981-1989</Kind>
+			<Description>George Herbert Walker Bush (born June 12, 1924) is an American politician who served as the 41st President of the United States (1989 to 1993). A Republican, he had previously served as the 43rd Vice President of the United States (1981 to 1989), a congressman, an ambassador and Director of Central Intelligence; he is currently the oldest surviving President.</Description>
+			<Location>
+				<City>Milton</City>
+				<State>Massachusetts</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1924-06-12</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://en.wikipedia.org/wiki/File:George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=7ffbFvKlWqE</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</Map>
+			<Social network="Twitter">https://twitter.com/USSGeorgeHWBush</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/George_H_W_Bush</Link>
+			<Citation>http://www.whitehouse.gov/about/presidents/georgehwbush</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="YF1988" />
+		</Crises>	
+
+	</Person>
+	
+	<Person pID="JH1952">
+		<Info>
+			<Name>John Hickenlooper</Name>
+			<Kind>Colorado Governor 2011-Present</Kind>
+			<Description>John Wright Hickenlooper is an American politician who has been Governor of Colorado since 2011. A Democrat, he was previously the Mayor of Denver, Colorado from 2003 to 2011.</Description>
+			<Location>
+				<City>Narberth</City>
+				<State>Pennsylvania</State>
+				<Country>United States of America</Country>
+			</Location>
+			<Date>
+				<StartDate>1952-02-07</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://en.wikipedia.org/wiki/File:John_Hickenlooper_-_World_Economic_Forum_Annual_Meeting_2012_cropped.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=8DXEjViLM5Q</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</Map>
+			<Social network="Twitter">https://twitter.com/hickforco</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/John_Hickenlooper</Link>
+			<Citation>http://www.hickenlooperforcolorado.com/</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="CW2012" />
+		</Crises>	
+
+	</Person><Person pID="KZ1945">
+		<Info>
+			<Name>Khaleda Zia</Name>
+			<Kind>Prime Minister of Bangladesh 1991-1996</Kind>
+			<Description>Begum Khaleda Zia is a Bangladeshi politician who was Prime Minister of Bangladesh from 1991 to 1996 and again from 2001 to 2006. When she first took office in 1991, she was the first woman in the country's history and second in the Muslim world (after Benazir Bhutto of Pakistan in 1988 to 1990) to head a democratic government as prime minister. She is the widow of President Ziaur Rahman, who was assassinated in 1981, and leads the party he founded, the Bangladesh Nationalist Party (BNP).</Description>
+			<Location>
+				<State>Dinajpur District</State>
+				<Country>Bangladesh</Country>
+			</Location>
+			<Date>
+				<StartDate>1945-08-15</StartDate>
+			</Date>
+		</Info>
+		<External>
+			<Image title="Required String">http://en.wikipedia.org/wiki/File:Begum_Zia_Book-opening_Ceremony,_1_Mar,_2010.jpg</Image>
+			<Video title="Required String">http://www.youtube.com/watch?v=B_rrUCGYf1w</Video>
+			<Map title="Required String">https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dinajpur+district&amp;ie=UTF-8&amp;hq=&amp;hnear=0x39fcab08431748c5:0x8df9a73629fb8d7b,Dinajpur,+Bangladesh&amp;gl=us&amp;ei=b1Y2UZigOZT22QXe6YBA&amp;sqi=2&amp;ved=0CJQBELYD</Map>
+			<Social network="Twitter">https://twitter.com/KhaledaZia</Social>
+			<Link title="Required String">http://en.wikipedia.org/wiki/Khaleda_Zia</Link>
+			<Citation>http://www.virtualbangladesh.com/biography/khaleda.html</Citation>
+		</External>
+		
+		<Crises>
+			<Crisis cID="BC1991" />
+		</Crises>	
+
+	</Person>
+	
+</WorldCrisesDatabase>
