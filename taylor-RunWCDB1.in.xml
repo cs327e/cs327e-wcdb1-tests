@@ -1,0 +1,141 @@
+1.
+<THU>
+	<Team>
+		<ACRush></ACRush>
+		<Jelly></Jelly>
+		<Cooly></Cooly>
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi></Ahyangyi>
+			<Dragon></Dragon>
+			<Cooly><Amber></Amber></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly></Cooly></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+2.
+<THU>
+	<Team>
+		<ACRush></ACRush>
+		<Jelly></Jelly>
+		<Cooly></Cooly>
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi></Ahyangyi>
+			<Dragon></Dragon>
+			<Cooly><Amber></Amber></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Cooly></Cooly>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+3.
+<Taylor>
+    <Team>
+        <ACRush></ACRush>
+        <Jelly></Jelly>
+        <Cooly></Cooly>
+    </Team>
+    <JiaJia>
+        <Team>
+            <Ahyangyi></Ahyangyi>
+            <Dragon></Dragon>
+            <Cooly><Amber></Amber></Cooly>
+        </Team>
+    </JiaJia>
+</Taylor>
+
+4.
+<Taylor>
+    <Team></Team>
+    <JiaJia>
+        <Team>
+            <Ahyangyi></Ahyangyi>
+            <Dragon></Dragon>
+            <Cooly><Amber></Amber></Cooly>
+        </Team>
+    </JiaJia>
+</Taylor>
+
+5.
+<Holly>
+	<Cats>
+		<Leopards><coffee><Tigers></Tigers></coffee></Leopards>
+		<Ocelots></Ocelots>
+		<Bobcats></Bobcats>
+	</Cats>
+	<Leopards>
+		<coffee></coffee>
+		<Tigers></Tigers>
+	</Leopards>
+</Holly>
+
+6.
+<THU>
+	<Team>
+		<ACRush></ACRush>
+		<Jelly></Jelly>
+		<Cooly></Cooly>
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi></Ahyangyi>
+			<Dragon></Dragon>
+			<Cooly><Amber></Amber></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly></Cooly></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+7.
+<THU>
+	<Team>
+		<ACRush></ACRush>
+		<Jelly></Jelly>
+		<Cooly></Cooly>
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi></Ahyangyi>
+			<Dragon></Dragon>
+			<Cooly><Amber></Amber></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly></Cooly></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+8.
+<Team><Cooly></Cooly></Team>
+
+9.
+<Team>
+    <ACRush></ACRush>
+    <Jelly></Jelly>
+    <Cooly></Cooly>
+</Team>
+
+10.
+<Team>
+    <ACRush></ACRush>
+    <Jelly></Jelly>
+    <Cooly></Cooly>
+</Team>
